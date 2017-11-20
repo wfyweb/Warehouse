@@ -1,0 +1,27 @@
+﻿/*详细页*/	
+.title4{ clear:both; height:50px; width:1000px; position:relative;}
+.title4 span,.title4 em{ display:block;}
+.title4 span{ float:left; height:50px; line-height:50px;}
+.title4 em{ height:25px; border-bottom:1px solid #c8c8c8;}
+	.title4_lx{ position:absolute; background:url(../images/icon_03.png) no-repeat right center; padding-right:7px;}
+	.title4_rx{ position:absolute; padding-left:7px;}
+	.title4_1{ padding:0 16px 0 18px;}
+.precon{ width:1000px; height:auto; clear:both; position:relative; min-height:676px;}
+	.preconbg{ position:absolute; left:0; top:0; width:1036px; min-height:676px; z-index:0;}
+		.preconbg1{ background:url(../images/con_bg2.png) repeat-y left top; height:auto; width:1036px;}
+	.precon1{ position:relative; z-index:2; width:900px; margin:0 auto; padding:70px 0 90px; line-height:24px;}
+	.precon1 h2{ font-size:20px; font-weight:normal; text-align:center; line-height:24px; color:#262626;}
+	.precon1 p{ line-height:24px; font-size:14px; padding:0 10px; text-align:justify;text-justify: inter-ideograph;padding-bottom: 15px;font-family:微软雅黑;}
+           .precon1 p img{max-width:880px;}
+	.precon1 p strong{font-family:微软雅黑;}
+	.precon1 p a{font-family:微软雅黑; font-size:14px;}
+		.ly{ border-bottom:1px solid #f0f0f0; line-height:20px; padding:10px 0 15px; text-align:center; margin-bottom:20px;}
+		.ly span{ margin:0 10px; font-family:宋体; font-size:12px;}
+		.ly span em{font-style: normal;}
+
+
+
+.xgwz{ padding:30px 0 70px 50px;}
+.xgwz h2{ font-size:16px;color:#1c1c1c;padding-bottom: 10px;font-weight: normal; }
+.xgwz li{ line-height:24px; padding-left:20px;}
+.xgwz li a{  font-size:12px;}

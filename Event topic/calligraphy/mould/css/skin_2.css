@@ -1,0 +1,41 @@
+﻿/*作品上传*/	
+.ysczp{ height:auto; clear:both; padding:40px 0 35px;}
+.ysczp li{ float:left; display:inline; padding-right:20px;}
+.ysczp li img{ border:2px solid #e9e9e9; width:230px; height:102px; }
+.ysczp li p{ height:44px; line-height:44px; clear:both; font-size:14px;}
+.ysczp li p span{ display:block; float:left; width:50%; text-align:center;}
+.title4{ clear:both; height:50px; width:1000px; position:relative;}
+.title4 span,.title4 em{ display:block;}
+.title4 span{ float:left; height:50px; line-height:50px;}
+.title4 em{ height:25px; border-bottom:1px solid #c8c8c8;}
+	.title4_lx{ position:absolute; background:url(../images/icon_03.png) no-repeat right center; padding-right:7px;}
+	.title4_rx{ position:absolute; background:url(../images/icon_03.png) no-repeat left center; padding-left:7px;}
+	.title4_1{ padding:0 16px 0 18px;}
+.zpsc{ height:auto; clear:both; padding-bottom:20px;}
+.zpsc td{ line-height:33px;}
+	.danxuan{ padding-bottom:14px;}
+	.danxuan input{ line-height:33px;}
+	.danxuan label{ line-height:33px; margin-right:40px;}
+	.zpsc_1 { padding-top:28px;}
+	.zpsc_1 p{ text-align:center; width:234px; font-size:14px;}
+	.zpsc_1 img{ width:230px; height:102px; border:2px solid #e9e9e9;}
+	.input5{ width:378px; height:23px; border:none; border-top:1px solid #e2e3e5; background:#fff; margin-top:28px; padding-left:10px; color:#747474; margin-bottom:10px;}
+	.textarea1{width:474px; height:100px; border:none; border-top:1px solid #e2e3e5; background:#fff; padding:5px 10px; line-height:18px; font-size:12px;color:#747474; resize:none;}
+.zpzs_list2 span em a{color:#fff}
+
+
+
+
+.zpzs_list{position:relative; z-index:2; clear:both; height:auto; padding-bottom:20px; display:inline-block;}
+.zpzs_list ul{ float:left; display:inline; padding:30px 23px 0 0; width:168px}
+	.zpzs_list1{ padding-bottom:10px;}
+	.zpzs_list1 img{ width:166px; height:308px; border:1px solid #e9e9e9;}
+	.zpzs_list2{ height:27px; line-height:27px; width:166px}
+	.zpzs_list2 span,.zpzs_list3 span{ display:block;}
+	.zpzs_list2 span em{ display:block; width:60px; height:24px; line-height:24px; text-align:center; color:#fff; background:#c90000; margin-right:5px; cursor:pointer; font-style:normal; font-size:14px;}
+	.zpzs_list3 { line-height:14px; padding-top:13px; width:166px}
+	.zpzs_list3 span{ font-size:12px;}
+	
+	.zpzs_list4{ height:27px; line-height:27px; width:166px; font-size:14px;} 
+	.zpzs_list4 img{ vertical-align:middle }
+		.text_c{ display:block; padding-left:15px; text-align:left;}

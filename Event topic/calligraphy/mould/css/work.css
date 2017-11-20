@@ -1,0 +1,66 @@
+﻿/*��Ƹ*/
+.u66_img {
+  width:20px;
+  height:20px;
+}
+
+.required {
+color: red;
+margin-left: 3px;
+}
+
+ .alink {
+ color:#000000;
+ text-decoration:no;
+ cursor:pointer;
+ }
+ 
+.spanl{ float:left;} 
+.spanr{ float:right;} 
+
+.conn{width:300px;height:165px;text-align:center;}
+
+
+.rollBox{width:99%;overflow:hidden; margin:0px auto;}
+.rollBox .LeftBotton{height:52px;width:4%;background:url("../images/u77.png") no-repeat 0 0;overflow:hidden;float:left;display:inline;margin:50px 0 0 0;cursor:pointer;}
+.rollBox .RightBotton{height:52px;width:4%;background:url("../images/u76.png") no-repeat 11px 0;overflow:hidden;float:left;display:inline;margin:50px 0 0 0;cursor:pointer;}
+.rollBox .Cont{width:90%;overflow:hidden;float:left;}
+.rollBox .ScrCont{width:16000%;}
+.rollBox .Cont .pic{float:left;text-align:center;}
+.rollBox .Cont .pic img{border:1px solid #ccc;width:215px;display:block;margin:0 auto;margin-right:15px; }
+.rollBox #List1,.rollBox #List2{float:left;}
+
+
+.mrollBox{width:98%;overflow:hidden; margin:0px auto;}
+.mrollBox .mLeftBotton{height:52px;width:8%;background:url("../images/u77.png") no-repeat 0 0;overflow:hidden;float:left;display:inline;margin:50px 0 0 0;cursor:pointer;}
+.mrollBox .mRightBotton{height:52px;width:8%;background:url("../images/u76.png") no-repeat 11px 0;overflow:hidden;float:left;display:inline;margin:50px 0 0 0;cursor:pointer;}
+.mrollBox .mCont{width:215px;overflow:hidden;float:left;}
+.mrollBox .mScrCont{width:16000%;}
+.mrollBox .mCont .mpic{float:left;text-align:center;}
+.mrollBox .mCont .mpic img{border:1px solid #ccc;width:215px;display:block;margin:0 auto;}
+
+.moredata a{
+	color:#000;
+}
+.btn-file{
+	position:relative;
+	overflow:hidden;
+}
+.btn-file input[type=file]{
+	position:absolute;
+	top:0;
+	right:0;
+	min-width:100%;
+	min-height:100%;
+	font-size:4px;
+	text-align:right;
+	filter:alpha(opacity=0);
+	opacity:0;
+	outline:none;
+	cursor:inherit;
+	diaplay:block;
+}
+
+
+	
+

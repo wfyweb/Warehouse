@@ -1,0 +1,586 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>书法中国_书法中国</title>
+<meta  name="页面生成时间" content="2017-05-26 06:00:23" />
+<meta  name="缓存清理时间" content="2017-04-12 03:46:50"/>
+<meta  name="easysite版本" content="7.8.7"/>
+<meta name="keywords" content=" 书法中国 " />
+<meta name="description" content=" 首页 书法中国 " />
+<link rel="stylesheet" type="text/css" media="screen" href="/main/uiFramework/huilan-jquery-ui/css/huilan-jquery-ui.css" />
+<script type="text/javascript" src="/main/uiFramework/huilan-jquery-ui/js/huilan-jquery-ui.js?self=true&skin=default"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="/main/template/main.css" />
+  <script type="text/javascript" src="/main/template/main.js"></script>
+ </head>
+ <body>
+  <link rel="stylesheet" type="text/css" media="screen" href="/main/template/page/index/skin.css" /> 
+  <script type="text/javascript" src="/main/template/page/index/ss.js"></script><div style="display:none" easysite="easysiteHiddenDiv">
+	<input id="contextPath" value="/eportal" type="hidden"/>
+	<input id="isOnlyUseCkeditorSourceMode" value="$isOnlyUseCkeditorSourceMode" type="hidden"/>
+	<input id="eprotalCurrentPageId" value="132108" type="hidden"/>
+	<input id="eprotalCurrentSiteId" value="1" type="hidden"/>
+	<input id="eprotalCurrentArticleKey"  value=""  type="hidden"/>
+	<input id="eprotalCurrentColumnId"  value=""  type="hidden"/>
+	<input id="isStaticRequest" value="yes" type="hidden"/>
+	<input id="isOpenStaticPageList" value="no" type="hidden"/>
+	<input id="defaultPublishPage" value="10" type="hidden"/>
+	<input type='hidden' id='eportalappPortletId' value="3">
+	<input type='hidden' id='epsPortletId' value="1">
+	<script type="text/javascript" src="/main/uiFramework/js/counting/chanelCounting.js"></script>
+	<input type="hidden" id="ckEditorUploadFileUrl" value="/eportal/ui?moduleId=2&pageId=132108&struts.portlet.action=/portlet/uploadFile.action&isCkEditor=true"/>
+	<input type="hidden" id="sDtoLoginUrl" value="moduleId=3&pageId=132108&struts.portlet.action=/app/member!sDtoLogin.action"/>
+	<input type="hidden" id="memberLoginUrl" value="/eportal/ui?moduleId=3&pageId=132108&struts.portlet.action=/app/member!toLogin.action"/>
+	<input type="hidden" id="currentLoginMemberId"  value="" />
+	<input type="hidden" id="currentLoginMemberName"  value="" />
+	<input type="hidden" id="behaviourAnalysisSiteId"  value="" /> 
+	<input type="hidden" id="isOpenArticleScan" value="yes"/>
+		<input type="hidden" id="voteUrl" value="/eportal/ui?moduleId=1&pageId=132108&struts.portlet.action=/portlet/article!vote.action"/>
+	<input type="hidden" id="getVoteCount" value="/eportal/ui?moduleId=1&pageId=132108&struts.portlet.action=/portlet/article!getVoteCount.action"/>
+	<input type="hidden" id="getHotWordRelativeArticle" value="/eportal/ui?moduleId=1&pageId=132108&struts.portlet.action=/portlet/article!getHotWordRelativeArticle.action&staticRequest=yes"/>
+	<input type="hidden" id="deleteArticleUrl" value="/eportal/ui?moduleId=1&pageId=132108&struts.portlet.action=/portlet/article!deleteArticle.action"/>
+	<input type="hidden" id="toSnsLoginUrl" value="/eportal/ui?moduleId=3&pageId=132108&struts.portlet.action=/app/member-sns-login!toSnsLogin.action"/>
+	<input type="hidden" id="portalLastRequestUrl"  value="" />
+</div>  <div> 
+   <script>
+ function goPAGE() {
+	if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+		window.location.href="http://m.shufazg.cn/";
+}
+}
+goPAGE();
+</script> 
+  </div> 
+  <div class="gg_left"> 
+   <img src="/main/uiFramework/images/sfzg_img/right_gg.png" /> 
+  </div> 
+  <div class="gg_right"> 
+   <ul> 
+    <li class="csyj"><a href="javascript:;"">注册<br />有奖</a> 
+     <div id="gg_left" class="csyj_1"> 
+      <!--
+<img src="/main/resource/cms/2015/10/zcyj.png" width="100">
+--> 
+     </div></li> 
+    <li><a href="/main/132130/index.html" target="_blank">参赛<br />办法</a></li> 
+    <li><a href="/main/132126/index.html" target="_blank">赛事<br />介绍</a></li> 
+    <li><a href="/main/132134/index.html" target="_blank">奖项<br />设置</a></li> 
+    <li><a href="/main/132138/index.html" target="_blank">评委<br />介绍</a></li> 
+    <li class="ewm"><img src="/main/uiFramework/images/sfzg_img/ewm.jpg" /><span style="DISPLAY: none" id="ewm" class="ewm2"><img src="/main/uiFramework/images/sfzg_img/ewm2.jpg" /></span></li> 
+   </ul> 
+  </div> 
+  <div id="ew1000"> 
+   <!--头部--><div class="header">
+	<ul class="top_menu">
+    	<!--<li></li>-->
+        <li class="search">
+     <form id="form" name="" action="http://www.shufazg.cn/search/pcRender?pageId=71429fc2fa0145159a9dc774d5a5f133" enctype="multipart/form-data " method="post" >
+	<!--<input type="hidden" id="searchBoxAppName" name="appName" value="">
+	
+	<input type="hidden" name="advtime" id="advtime" value="">
+	<input type="hidden" name="advrange" id="advrange" value="">
+	<input type="hidden" name="ext" id="ext" value="-siteId:1">
+	<input type="hidden" name="pNo" id="pNo" value="">-->
+
+	
+     <input type="hidden" name="sr" id="sr" value="score desc">
+       <img src="/main/uiFramework/images/sfzg_img/icon_02.png">
+            <span style="display:none;"><input class="search-text input1" type='text' name="q" id="q" value="" autocomplete="off"><input class="search-btn" type="submit" value=""   /></span>
+</form> 
+        </li>
+        <li class="top_menu_1"><em class="sjz" style="display:none;"><a href="http://m.shufazg.cn/" style="background:none; padding:0; line-height:100px;"><img src="/main/resource/cms/2015/09/sjewm.jpg"></a></em><a href="javascript:;" class="sjz2">手机站</a><a id="loginbutton" href="/main/dl/index.html" target="_blank">登录</a><a id="regbutton" href="/main/zc/index.html" target="_blank">注册</a></li>
+    </ul>
+<script>
+function search01(){
+window.location.href='http://www.shufazg.cn/search/pcRender?pageId=71429fc2fa0145159a9dc774d5a5f133&q='+$("#q").val();
+}
+</script>
+    <div class="nav">
+    	<div class="logo"><img src="/main/uiFramework/images/sfzg_img/logo.png" width="111" height="189" /></div>
+        <!--导航-->
+        <ul>
+        	<li style="padding-top:4px;"><a href="/main/sy/index.html"><img src="/main/uiFramework/images/sfzg_img/nav_img01.png"></a></li>
+            <li><a href="/main/132126/index.html"><img src="/main/uiFramework/images/sfzg_img/nav_img02.png"></a></li>
+            <li><a href="/main/132158/index.html"><img src="/main/uiFramework/images/sfzg_img/nav_img03.png"></a></li>
+            <li style="padding-left:170px;"><a href="/eportal/ui?pageId=132118"><img src="/main/uiFramework/images/sfzg_img/nav_img04.png"></a></li>
+            <li><a href="http://bbs.shufazg.cn/" target="_blank"><img src="/main/uiFramework/images/sfzg_img/nav_img05.png"></a></li>
+            <li style="padding:4px 0 0 0;"><a href="/eportal/ui?pageId=132310"><img src="/main/uiFramework/images/sfzg_img/nav_img06hover.png"></a></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="/main/uiFramework/js/validateMemberLogin.js"></script>   <!--end 头部--> 
+   <!--bannder--> 
+   <div class="banner column" id="lbt" runat="server" name="banner轮播图">
+      <div class="portlet" id="2b220bce605547678b22156479dbf6ef"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu2b220bce605547678b22156479dbf6ef" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   
+
+
+<div class="banner mr_frbox"> 
+ <span class="mr_frBtnL prev"></span> 
+ <div class="mr_frUl"> 
+  <ul> 
+   <li><a href="" target="_blank"><img src="/main/resource/cms/2015/10/2015102902035926651.png" border="0" /></a></li>
+   <li><a href="" target="_blank"><img src="/main/resource/cms/2015/10/2015102913013041927.png" border="0" /></a></li>
+   <li><a href="" target="_blank"><img src="/main/resource/cms/2015/10/2015102913015274644.png" border="0" /></a></li>
+   <li><a href="" target="_blank"><img src="/main/resource/cms/2015/10/2015102913020925272.png" border="0" /></a></li> 
+  </ul> 
+ </div> 
+ <span class="mr_frBtnR next"></span> 
+</div> 
+<script language="javascript">
+jQuery(".mr_frbox").slide({titCell:"",mainCell:".mr_frUl ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:1});
+
+</script> 
+ </div> 
+</div>    </div> 
+   <!--end bannder--> 
+   <!--内容--> 
+   <div class="main"> 
+    <!--内容1--> 
+    <div class="news"> 
+     <!--新闻报道--> 
+     <div class="xwbd float_left"> 
+      <div class="title1"> 
+       <img src="/main/template/page/index/zi_xwbd.png" /> 
+      </div> 
+      <div id="xwbd" runat="server" name="新闻报道" class=" column">
+         <div class="portlet" id="e246238ad994496897198f26146d1da8"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu">
+        </span> 
+  <div id="submenue246238ad994496897198f26146d1da8" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   
+
+
+<div class="xwbdimg float_left"> 
+ <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="231" height="178" contentmediatype="flash"><param name="_cx" value="5582"></param><param name="_cy" value="3651"></param><param name="FlashVars" value="f=/eportal/immovableDir/main/resource/cms/2015/10/2015102907112460962.mp4&amp;p=1"></param><param name="Movie" value="/main/uiFramework/js/videoPlayer/ckplayer.swf"></param><param name="Src" value="/main/uiFramework/js/videoPlayer/ckplayer.swf"></param><param name="WMode" value="Window"></param><param name="Play" value="0"></param><param name="Loop" value="-1"></param><param name="Quality" value="High"></param><param name="SAlign" value="LT"></param><param name="Menu" value="-1"></param><param name="Base" value=""></param><param name="AllowScriptAccess" value=""></param><param name="Scale" value="NoScale"></param><param name="DeviceFont" value="0"></param><param name="EmbedMovie" value="0"></param><param name="BGColor" value=""></param><param name="SWRemote" value=""></param><param name="MovieData" value=""></param><param name="SeamlessTabbing" value="1"></param><param name="Profile" value="0"></param><param name="ProfileAddress" value=""></param><param name="ProfilePort" value="0"></param><param name="AllowNetworking" value="all"></param><param name="AllowFullScreen" value="true"></param><param name="AllowFullScreenInteractive" value="false"></param><param name="IsDependent" value="0"></param> <embed allowfullscreen="true" contentmediatype="flash" flashvars="f=/eportal/immovableDir/main/resource/cms/2015/10/2015102907112460962.mp4&amp;p=1" height="178" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="height" src="/main/uiFramework/js/videoPlayer/ckplayer.swf" type="application/x-shockwave-flash" width="231" /></object> 
+</div> 
+<ul class="xwbdlist float_right"> 
+ <li><span>12/07</span><a href="/main/132154/142444/index.html" onclick="void(0)" target="_blank" title="新华网：首届“书法中国”在京颁奖">新华网：首届“书法中国”在京颁奖</a></li>
+ <li><span>12/07</span><a href="/main/132154/142490/index.html" onclick="void(0)" target="_blank" title="新浪网：首届“书法中国”在京颁奖">新浪网：首届“书法中国”在京颁奖</a></li>
+ <li><span>12/07</span><a href="/main/132154/142730/index.html" onclick="void(0)" target="_blank" title="新民网：首届“书法中国”在京颁奖">新民网：首届“书法中国”在京颁奖</a></li>
+ <li><span>12/07</span><a href="/main/132154/142727/index.html" onclick="void(0)" target="_blank" title="东方网：首届“书法中国”在京颁奖">东方网：首届“书法中国”在京颁奖</a></li>
+ <li><span>12/07</span><a href="/main/132154/142680/index.html" onclick="void(0)" target="_blank" title="北京晨报：首届“书法中国”在京颁奖">北京晨报：首届“书法中国”在京颁奖</a></li>
+ <li><span>12/07</span><a href="/main/132154/142604/index.html" onclick="void(0)" target="_blank" title="网易：首届“书法中国”在京颁奖">网易：首届“书法中国”在京颁奖</a></li> 
+</ul> 
+ </div> 
+</div>       </div> 
+     </div> 
+     <!--活动公告--> 
+     <div class="hdgg float_right"> 
+      <div class="title2"> 
+       <span>活动公告</span> 
+       <em>NOTICE</em> 
+      </div> 
+      <div id="hdgglist" runat="server" name="活动公告" class=" column">
+         <div class="portlet" id="28788d48a8c5439e941833b24dab32f0"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu28788d48a8c5439e941833b24dab32f0" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   
+
+
+<ul class="hdgglist"> 
+ <li><span>2017.04.12</span><br /><a href="/main/132158/142564/index.html" onclick="void(0)" target="_blank" title="“书法中国”青少组入围名单">“书法中国”青少组入围名单</a></li>
+ <li><span>2017.04.12</span><br /><a href="/main/132158/142561/index.html" onclick="void(0)" target="_blank" title="“书法中国”成人组入围名单">“书法中国”成人组入围名单</a></li>
+ <li><span>2017.04.12</span><br /><a href="/main/132158/142558/index.html" onclick="void(0)" target="_blank" title="关于颁发“书法中国”入围选手证书通知">关于颁发“书法中国”入围选手证书通知</a></li>
+ <li><span>2016.11.28</span><br /><a href="/main/132158/142294/index.html" onclick="void(0)" target="_blank" title="首届“书法中国”全民书法大赛颁奖暨优秀作品展预告">首届“书法中国”全民书法大赛颁奖暨优秀作品展预告</a></li> 
+</ul> 
+ </div> 
+</div>       </div> 
+      <div class="more1"> 
+       <a href="/main/132158/index.html" target="_blank"><img src="/main/template/page/index/more_hs.png" /></a> 
+      </div> 
+     </div> 
+    </div> 
+    <!--作品展示--> 
+    <div style="CLEAR: both" id="zpzs" runat="server" name="作品展示" class=" column">
+       <div class="portlet" id="8b1e7221c10b4a8c978c84c27e738d7b"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu8b1e7221c10b4a8c978c84c27e738d7b" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+	 	<title>作品展示</title>
+	 	<meta http-equiv="pragma" content="no-cache"/>
+		<meta http-equiv="cache-control" content="no-cache"/>
+		<meta http-equiv="expires" content="0"/>    
+		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3"/>
+		<meta http-equiv="description" content="This is my page"/>
+		<!-- 部署时需要注释掉 -->
+		<!--<link href="/eportalapply/css/css.css" rel="stylesheet" type="text/css" />-->
+		<!-- 部署时需要注释掉 -->
+	</head>
+	<body style="position:relative;">
+	    <!--作品展示-->
+	    <div class="zpzs">
+	    	<div class="title1"><img src="/eportalapply/images/zi_zpzs.png" ></div>
+	        <span class="zpzs_left"></span>
+	        <span class="zpzs_right"></span>
+	        <div class="zpzslist">
+	        	<ul class="zpzslist_img">
+	        	   <!-- 图片列表 begin -->
+			       
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128926&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015574510249.jpg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128926&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128926</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128925&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015572325801.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128925&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128925</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128924&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015563641758.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128924&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128924</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128923&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015552867897.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128923&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128923</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128921&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015535745412.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128921&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128921</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128919&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015525318804.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128919&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128919</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128918&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015521215008.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128918&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128918</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128917&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015513453666.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128917&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128917</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128916&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015505390596.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128916&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128916</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128915&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015501875106.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128915&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128915</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128914&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015492391470.jpg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128914&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128914</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128913&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015490213571.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128913&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128913</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128911&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015483864472.jpg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128911&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128911</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128910&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015445731214.JPG"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128910&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128910</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128909&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015434316871.jpg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128909&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128909</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128908&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015404912187.jpg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128908&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128908</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128907&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015374818165.jpg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128907&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128907</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128906&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015371517317.jpg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128906&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128906</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128905&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015363226197.jpg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128905&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128905</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128904&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015361495812.JPG"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128904&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128904</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128903&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015330760492.jpeg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128903&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128903</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128902&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015295490290.jpg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128902&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128902</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128900&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015285814767.jpg"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128900&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128900</a>
+				        	</p>
+				        </li>
+			        
+				        <li>
+				        	<span>
+				        		<a href="/eportal/ui?pageId=132611&workId=128899&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank"><img src="https://chinstylefiles01.blob.core.chinacloudapi.cn/cloubblob/2016043015251055322.JPG"></a>
+				        	</span>
+				        	<p>
+				        		<a href="/eportal/ui?pageId=132611&workId=128899&workType=&showCaseModuleId=&showCasePageId=132118" target="_blank">ID:128899</a>
+				        	</p>
+				        </li>
+			        
+			        <!-- 图片列表 end -->
+	            </ul>
+	        </div>
+        </div>
+		<!--作品展示-->
+		<!-- 部署时需要注释掉 -->
+		<!-- <script type="text/javascript" src="/eportalapply/js/common/main.js"></script>
+		<script type="text/javascript" src="/eportalapply/js/common/jquery.slides.js"></script> -->
+		<!-- 部署时需要注释掉 -->
+</body>
+</html> 
+ </div> 
+</div>     </div> 
+    <!--内容3--> 
+    <div class="nr3"> 
+     <!--论坛--> 
+     <div class="luntan float_left"> 
+      <div class="title1"> 
+       <img src="/main/template/page/index/zi_lt.png" /> 
+      </div> 
+      <div id="luntan" runat="server" name="论坛" class=" column">
+         <div class="portlet" id="2bbc4c5d8059451fb7a5f7f6f48cf4f5"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu2bbc4c5d8059451fb7a5f7f6f48cf4f5" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   
+
+
+<ul class="ltlist"> 
+ <li class="ltlist1"><span></span></li> 
+</ul> 
+ </div> 
+</div>       </div> 
+     </div> 
+     <!--图书推荐--> 
+     <!-- ceshi--> 
+     <input id="login" value="${currentLoginMember.loginName}" type="hidden" /> 
+     <script language="javascript">
+  var login= $("#login").val();
+if(isNaN(login)){login=""}
+var path="http://www.shufazg.cn/eportal/ui?moduleId=bf48efd5f2754a0290b415183514755d%26login="+login+"%26struts.portlet.action=/portlet/work-front!Robtraffic.action";
+var img="<img src=\"http://qr.liantu.com/api.php?bg=f3f3f3&fg=ff0000&gc=222222&el=l&w=100&m=10&text="+path+"\" />";
+ $("#gg_left").append(img);
+
+</script> 
+     <!-- ceshi--> 
+     <div class="tstj float_right"> 
+      <div style="PADDING-LEFT: 32px" class="title1"> 
+       <img src="/main/template/page/index/zi_tstj.png" /> 
+      </div> 
+      <div id="tstj" runat="server" name="图书推荐" class=" column">
+         <div class="portlet" id="e262401d109a48c997dc474ceca55d75"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu">
+        </span> 
+  <div id="submenue262401d109a48c997dc474ceca55d75" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   
+
+
+<ul class="tstjlist"> 
+ <li><a href="javascript:;"><img src="/main/resource/cms/2015/11/2015113014320420882.jpg" border="0" /></a></li>
+ <li><a href="javascript:;"><img src="/main/resource/cms/2015/10/启功给你讲书法书影.jpg" border="0" /></a></li>
+ <li><a href="javascript:;"><img src="/main/resource/cms/2015/10/启功给你讲书法_small.jpg" border="0" /></a></li> 
+</ul> 
+ </div> 
+</div>       </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!--end 内容--> 
+  </div> 
+  <!--底部--><div class="footer">
+	<div class="foot">主办单位：中国出版集团 人民美术出版社<br>中版文化传播（北京）有限公司承办并运营本网站　　咨询电话：010-63260766<br>© Copyright  2015  书法中国   京ICP备  15020098号　　<a href="/main/gywm/index.html" target="_blank">关于我们</a></div>
+</div>  <!--end 底部--> 
+  <script type="text/javascript" src="/main/uiFramework/js/sfzg_js/main.js"></script> 
+  <script>
+cw0=$(window).width()
+if(cw0 < 1520){
+  $('.gg_left').width(190)
+  $('.gg_left img').width(190)	
+  $('#ew1000').addClass("ew1000")
+}else{
+ $('.gg_left').width(250)
+ $('.gg_left img').width(250)
+ $('#ew1000').removeClass("ew1000")
+}
+if((cw0-1000)/2 <= 250){
+ // $('.gg_left').width((cw0-1040)/2)
+ // $('.gg_left img').width((cw0-1040)/2)
+}
+$('.csyj').mouseover(function(){
+   $('.csyj_1').toggle() 
+})
+
+
+//$('.xwbdimg img').attr("src",$('.xwbdlist li em img').attr("src"))
+//$('.xwbdlist li').mouseover(function(){
+ // $('.xwbdimg img').attr("src",$(this).find("img").attr("src"))
+//})
+if($('.precon').height()>676){
+	$('.preconbg1').height($('.precon').height()-676)
+}
+
+</script><div style="display:none" easysite="easysiteHiddenDiv">
+<input type="hidden"  id="currentLoginUserLoginName"/>
+</div> </body>
+</html><a href="http://www.huilan.com" style="display:none">中科汇联承办，easysite内容管理系统，portal门户，舆情监测，搜索引擎，政府门户，信息公开，电子政务</a>
