@@ -1,0 +1,43 @@
+﻿/*赛事动态列表*/
+	.list_news{ height:442px; position:relative; z-index:2;}
+	.list_news li{height:34px; *height:30px; clear:both; font-size:14px;}
+	.list_news li a{ display:block; height:34px; background:url(../images/hdgg_bg1.png) no-repeat left 4px; color:#686868; padding-left:20px; float:left; line-height:14px; font-size:14px;}
+	.list_news li a:hover{ background:url(../images/hdgg_bg2.png) no-repeat left 4px; color:#d60000;}
+	.list_news li span{ display:block; float:right; font-family:Arial; line-height:14px;}
+	.list_news li:hover span{ color:#d60000;}
+	.list_news .endhover a{ background:url(../images/icon_04.png) no-repeat left 4px;}
+	.list_news .endhover a:hover{ background:url(../images/icon_05.png) no-repeat left 4px;}
+
+
+/*赛事介绍*/
+.ssjs{ position:relative; z-index:2; clear:both; height:auto; line-height:24px; font-size:14px}
+.ssjs p{ line-height:24px; font-size:14px}
+
+/*评委介绍列表页*/
+.list_pwjs{position:relative; z-index:2; clear:both; height:auto; overflow:hidden;}
+.list_pwjs li{ float:left; display:inline; width:140px; padding-right:55px;}
+.list_pwjs li a{ display:block; border:5px solid #ebebeb;}
+.list_pwjs li img{width:130px; height:187px;}
+.list_pwjs li span{ display:block; line-height:60px; text-align:center; font-size:16px;}
+.list_pwjs li a:hover{ border:5px solid #be0000;}
+.list_pwjs li:hover a{ color:#be0000;}
+.list_pwjs li span a{border:0;display:inline; font-size:14px;}
+.list_pwjs li span a:hover{border:0; color:#be0000;}
+/*评委介绍详细页*/
+.pre_pwjs{position:relative; z-index:2; clear:both; height:auto; width:746px; display:inline-block;}
+	.pwjs_img{ width:140px; text-align:center; line-height:50px; font-size:18px;}
+	.pwjs_img span{ display:block; border:5px solid #ebebeb;}
+	.pwjs_img span img{ width:130px; height:187px;}
+	.pwjs_con{ width:565px; height:auto; line-height:24px; font-size:14px;}
+	.pwjs_con p{ line-height:24px; font-size:16px;}
+
+.ssjs p a{ font-size:14px;font-family: 微软雅黑;}
+.ssjs p strong{font-family: 微软雅黑;}
+
+
+/*分页*/
+	.fenye{ height:36px; clear:both; padding:20px 0 0 230px; position:relative; z-index:1;}
+	.fenye li{  float:left;}
+	.fenye li a{ display:block; float:left; line-height:34px; padding:0 14px; border:1px solid #e2e2e2; word-wrap:normal; white-space:nowrap; cursor:pointer; margin-left:10px;}
+	.fenye li font{ display:block; float:left; line-height:34px; padding:0 14px; border:1px solid #e2e2e2; word-wrap:normal; white-space:nowrap; margin-left:10px; cursor:pointer;}
+    .NormalRed {color: #c90000;font-size: 14px;}

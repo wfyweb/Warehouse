@@ -1,0 +1,68 @@
+﻿/*banner图*/
+.banner {margin:0 auto;clear:both;}
+.mr_frbox {height:440px;width:1000px;overflow:hidden;position:relative;z-index:1;}
+.mr_frBtnL {position:absolute;left:0;top:200px;width:37px;height:37px;cursor:pointer;z-index:4;background:#c90000 url(../images/banner_left.png) no-repeat center center;}
+.mr_frBtnR {position:absolute;right:0;top:200px;width:37px;height:37px;cursor:pointer;z-index:4;background:#c90000 url(../images/banner_right.png) no-repeat center center;}
+.mr_frBtnL:hover {background-color:#000;}
+.mr_frBtnR:hover {background-color:#000;}
+.mr_frUl {height:440px;width:1000px;overflow:hidden;position:relative;z-index:2;}
+.mr_frUl ul li {display:inline;float:left;height:440px;width:1000px;overflow:hidden;}
+.mr_frUl ul li img {height:440px;width:1000px;}
+
+/*内容*/
+.main {width:1000px;height:auto;margin:0 auto;clear:both;padding-bottom:45px;}
+.news {width:1000px;height:auto;clear:both;padding-top:8px;}
+
+/*新闻报道*/
+.xwbd {width:600px;*width:590px;height:auto;}
+.title1 {height:49px;clear:both;}
+.xwbdimg {padding-top:10px;}
+.xwbdimg,.xwbdimg img {width:231px;height:178px;}
+.xwbdlist {width:345px;height:auto;}
+.xwbdlist li {line-height:33px;}
+.xwbdlist li span {margin-right:10px;}
+.xwbdlist li:hover span {color:#c90000;}
+
+/*活动公告*/
+.hdgg {width:375px;height:auto;}
+.title2 {height:29px;line-height:29px;background:#c90000;color:#fff;}
+.title2 span {display:inline-block;padding:0 18px;background:#3a3a3a;margin-right:13px;}
+.title2 em {font-size:11px;font-family:Arial;font-style:normal;color:#fff;}
+.hdgglist {padding:20px 20px 0;}
+.hdgglist li {background:url(../images/hdgg_bg1.png) no-repeat left 3px;padding-left:17px;line-height:20px;height:47px;cursor:pointer;}
+.hdgglist li span {color:#3a3a3a;font-size:14px;font-family:Arial;}
+.hdgglist li:hover {background:url(../images/hdgg_bg2.png) no-repeat left 3px;}
+.hdgglist li:hover span {color:#c90000;}
+
+/*作品展示*/
+.zpzs {padding-top:23px;width:1000px;height:auto;clear:both;position:relative;overflow:hidden;}
+.zpzs_left,.zpzs_right {display:block;top:38px;position:absolute;width:15px;height:22px;cursor:pointer;}
+.zpzs_left {right:44px;background:url(../images/zpzs_l1.png) no-repeat;}
+.zpzs_right {right:16px;background:url(../images/zpzs_r1.png) no-repeat;}
+.zpzs_left_cur {background:url(../images/zpzs_l2.png) no-repeat;}
+.zpzs_right_cur {background:url(../images/zpzs_r2.png) no-repeat;}
+.zpzslist {width:996px;height:552px;overflow:hidden;position:relative;}
+.zpzslist ul {height:552px;}
+.zpzslist_img li {width:126px;height:276px;padding:0 20px;float:left;display:inline;}
+.zpzslist_img li span a {display:block;width:121px;height:225px;background:url(../images/zpzs1028_1.png) no-repeat;padding:1px 4px 4px 1px;overflow:hidden;}
+.zpzslist_img li span a:hover {background:url(../images/zpzs1028_2.png) no-repeat;}
+.zpzslist_img li span a img {width:121px;height:225px;}
+.zpzslist_img li p {line-height:46px;text-align:center;font-size:14px;font-family:Arial;}
+.zpzslist_img li:hover p a {color:#c90000;}
+
+/*论坛*/
+.luntan {width:569px;height:auto;}
+.ltlist li {line-height:30px;}
+.ltlist li span {margin-right:18px;font-family:Arial;}
+.ltlist li:hover span {color:#c90000;}
+.ltlist .ltlist1 {background:url(../images/luntan_bg.jpg);height:51px;line-height:51px;padding-left:238px;color:#fff;margin-bottom:15px;font-size:14px;}
+.ltlist .ltlist1 a,.ltlist .ltlist1 a:hover,.ltlist .ltlist1:hover span {color:#fff;}
+.ltlist .ltlist1 span {font-size:18px;}
+
+/*图书推荐*/
+.tstj {width:395px;height:auto;}
+.tstjlist {clear:both;height:auto;}
+.tstjlist li {padding-left:32px;float:left;display:inline;}
+.tstjlist li a {display:block;background:url(../images/tstj_imgbg.png) no-repeat;width:92px;height:150px;padding:7px 0 0 7px;}
+.tstjlist li img {width:82px;height:139px;}
+.ew1000 {width:1000px;height:auto;padding-left:130px;margin:0 auto;position:relative;clear:both;}
