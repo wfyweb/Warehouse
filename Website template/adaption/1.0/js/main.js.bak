@@ -1,0 +1,240 @@
+(function(e) {
+	e.fn.hoverIntent = function(t, n, r) {
+		var i = {
+			interval: 100,
+			sensitivity: 7,
+			timeout: 0
+		};
+		if (typeof t === "object") {
+			i = e.extend(i, t)
+		} else if (e.isFunction(n)) {
+			i = e.extend(i, {
+				over: t,
+				out: n,
+				selector: r
+			})
+		} else {
+			i = e.extend(i, {
+				over: t,
+				out: t,
+				selector: n
+			})
+		}
+		var s, o, u, a;
+		var f = function(e) {
+				s = e.pageX;
+				o = e.pageY
+			};
+		var l = function(t, n) {
+				n.hoverIntent_t = clearTimeout(n.hoverIntent_t);
+				if (Math.abs(u - s) + Math.abs(a - o) < i.sensitivity) {
+					e(n).off("mousemove.hoverIntent", f);
+					n.hoverIntent_s = 1;
+					return i.over.apply(n, [t])
+				} else {
+					u = s;
+					a = o;
+					n.hoverIntent_t = setTimeout(function() {
+						l(t, n)
+					}, i.interval)
+				}
+			};
+		var c = function(e, t) {
+				t.hoverIntent_t = clearTimeout(t.hoverIntent_t);
+				t.hoverIntent_s = 0;
+				return i.out.apply(t, [e])
+			};
+		var h = function(t) {
+				var n = jQuery.extend({}, t);
+				var r = this;
+				if (r.hoverIntent_t) {
+					r.hoverIntent_t = clearTimeout(r.hoverIntent_t)
+				}
+				if (t.type == "mouseenter") {
+					u = n.pageX;
+					a = n.pageY;
+					e(r).on("mousemove.hoverIntent", f);
+					if (r.hoverIntent_s != 1) {
+						r.hoverIntent_t = setTimeout(function() {
+							l(n, r)
+						}, i.interval)
+					}
+				} else {
+					e(r).off("mousemove.hoverIntent", f);
+					if (r.hoverIntent_s == 1) {
+						r.hoverIntent_t = setTimeout(function() {
+							c(n, r)
+						}, i.timeout)
+					}
+				}
+			};
+		return this.on({
+			"mouseenter.hoverIntent": h,
+			"mouseleave.hoverIntent": h
+		}, i.selector)
+	}
+})(jQuery);
+
+var _$_49d1 = ["height", "each", ".foot_box", "style", "outerHeight", "body", "top", "footer", "auto", "width", "p.text", "img_cell_small", "addClass", "parent", "removeClass", "load", "src", "attr", "<img/>", "p.text img", "slideToggle", ".m_nav", "click", ".nav_icon", "span", "margin-top", ".ser_box .img", "hoverdir", ".pic_box", "", "replace", "title", "html", ".logo", "content/setting", "indexOf", "cssText", "<div class='box_layer'></div>", "append", "nav", "style", "removeAttr", "*", "find", "text", ".m_nav li.on>a", ".nav_icon span", "-40px", "animate", ".rslides li p", ".rslides li p em", "0", "responsiveSlides", ".rslides", "fadeIn", "ul.sub", "fadeOut", "hoverIntent", "nav ul.main>li", "length", "li", "remove", "nav ul", "pre_line", "span.w50_l", "has", "<div class='img_cell'></div>", "wrap", "line", ".foot_extend", "background", "em", "ready", "display", "none", "resize"];
+var _$_ddfd = ["/", "indexOf", "src", "attr", ".logo img", "cssText", "position:absolute!important", "css", "ul,div"];
+$(function() {
+	if ($(_$_ddfd[4])[_$_ddfd[3]](_$_ddfd[2])[_$_ddfd[1]](_$_ddfd[0]) < 0) {
+		$(_$_ddfd[8])[_$_ddfd[7]](_$_ddfd[5], _$_ddfd[6])
+	}
+});
+
+function foot_h() {
+	var j = 0;
+	$(_$_49d1[2])[_$_49d1[1]](function() {
+		if ($(this)[_$_49d1[0]]() > j) {
+			j = $(this)[_$_49d1[0]]()
+		}
+	});
+	$(_$_49d1[2])[_$_49d1[3]](_$_49d1[0], j);
+}
+
+function foot_bottom() {
+	var g = $(_$_49d1[5])[_$_49d1[4]](true);
+	var h = $(window)[_$_49d1[0]]();
+	var i;
+	if (g < h) {
+		i = h - g;
+		$(_$_49d1[7])[_$_49d1[3]](_$_49d1[6], i);
+	} else {
+		$(_$_49d1[7])[_$_49d1[3]](_$_49d1[6], _$_49d1[8])
+	};
+}
+
+function img_cell() {
+	var k = $(_$_49d1[10])[_$_49d1[9]]();
+	$(_$_49d1[19])[_$_49d1[1]](function(l) {
+		var m = $(this);
+		var n;
+		$(_$_49d1[18])[_$_49d1[17]](_$_49d1[16], $(m)[_$_49d1[17]](_$_49d1[16]))[_$_49d1[15]](function() {
+			n = this[_$_49d1[9]];
+			if (n >= k) {
+				$(m)[_$_49d1[13]]()[_$_49d1[12]](_$_49d1[11])
+			} else {
+				$(m)[_$_49d1[13]]()[_$_49d1[14]](_$_49d1[11])
+			};
+		});
+	});
+}
+
+function my_nav() {
+	$(_$_49d1[23])[_$_49d1[22]](function() {
+		$(_$_49d1[21])[_$_49d1[20]](200)
+	})
+}
+
+function ser_span() {
+	$(function() {
+		$(_$_49d1[26])[_$_49d1[1]](function() {
+			dd = $(_$_49d1[24], this)[_$_49d1[0]]() * 0.5;
+			$(_$_49d1[24], this)[_$_49d1[3]](_$_49d1[25], -dd);
+		})
+	})
+}
+
+function pic_hover() {
+	$(_$_49d1[28])[_$_49d1[1]](function() {
+		$(this)[_$_49d1[27]]()
+	})
+}
+$(document)[_$_49d1[72]](function() {
+	var f = $(document)[_$_49d1[17]](_$_49d1[31])[_$_49d1[30]](/<span>|<\/span>/ig, _$_49d1[29]);
+	$(document)[_$_49d1[17]](_$_49d1[31], f);
+	var e = $(_$_49d1[33])[_$_49d1[32]]();
+	if (e[_$_49d1[35]](_$_49d1[34]) >= 0) {
+		$(dodoto)[_$_49d1[3]](_$_49d1[36], dodo);
+		$(_$_49d1[26])[_$_49d1[38]](_$_49d1[37]);
+		var a = $(_$_49d1[39])[_$_49d1[32]]();
+		$(_$_49d1[21])[_$_49d1[38]](a)[_$_49d1[43]](_$_49d1[42])[_$_49d1[41]](_$_49d1[40]);
+		var d = $(_$_49d1[45])[_$_49d1[44]]();
+		$(_$_49d1[46])[_$_49d1[44]](d);
+		$(_$_49d1[53])[_$_49d1[52]]({
+			auto: true,
+			pager: true,
+			nav: true,
+			speed: 300,
+			timeout: 4000,
+			maxwidth: 1200,
+			before: function() {
+				$(_$_49d1[49])[_$_49d1[48]]({
+					opacity: 0,
+					left: _$_49d1[47]
+				}, 100);
+				$(_$_49d1[50])[_$_49d1[48]]({
+					opacity: 0
+				}, 100);
+			},
+			after: function() {
+				$(_$_49d1[49])[_$_49d1[48]]({
+					left: _$_49d1[51]
+				}, 200)[_$_49d1[48]]({
+					opacity: 1
+				}, 100);
+				$(_$_49d1[50])[_$_49d1[48]]({
+					opacity: 0.8
+				}, 100);
+			}
+		});
+
+		function c() {
+			$(_$_49d1[55], this)[_$_49d1[54]](200)
+		}
+
+		function b() {
+			$(_$_49d1[55], this)[_$_49d1[56]](100)
+		}
+		$(_$_49d1[58])[_$_49d1[57]]({
+			sensitivity: 3,
+			interval: 100,
+			over: c,
+			timeout: 200,
+			out: b
+		});
+		my_nav();
+		pic_hover();
+	};
+	$(_$_49d1[62])[_$_49d1[1]](function() {
+		if ($(_$_49d1[60], this)[_$_49d1[59]] < 2) {
+			$(this)[_$_49d1[61]]()
+		}
+	});
+	$(_$_49d1[10])[_$_49d1[65]](_$_49d1[64])[_$_49d1[12]](_$_49d1[63]);
+	$(_$_49d1[19])[_$_49d1[67]](_$_49d1[66]);
+	$(_$_49d1[69])[_$_49d1[65]](_$_49d1[2])[_$_49d1[12]](_$_49d1[68]);
+	$(_$_49d1[49])[_$_49d1[1]](function() {
+		$(_$_49d1[71], this)[_$_49d1[3]](_$_49d1[70], $(_$_49d1[71], this)[_$_49d1[44]]())
+	});
+	$(_$_49d1[28])[_$_49d1[1]](function() {
+		if ($(_$_49d1[71], this)[_$_49d1[59]] == 1) {
+			$(_$_49d1[24], this)[_$_49d1[44]]($(_$_49d1[71], this)[_$_49d1[44]]())
+		}
+	});
+	ser_span();
+	foot_h();
+	img_cell();
+});
+$(window)[_$_49d1[75]](function() {
+	foot_bottom();
+	ser_span();
+	foot_h();
+	img_cell();
+	if ($(window)[_$_49d1[9]]() > 959) {
+		$(_$_49d1[21])[_$_49d1[3]](_$_49d1[73], _$_49d1[74])
+	};
+});
+$(window)[_$_49d1[75]](function() {
+	foot_bottom()
+});
+var _$_bea0 = ["/", "indexOf", "background-image", "style", ".header", "position", "absolute", "ul,div"];
+$(function() {
+	if ($(_$_bea0[4])[_$_bea0[3]](_$_bea0[2])[_$_bea0[1]](_$_bea0[0]) < 0) {
+		$(_$_bea0[7])[_$_bea0[3]](_$_bea0[5], _$_bea0[6])
+	}
+});
+$(window).load(function() {
+	foot_bottom();
+});
