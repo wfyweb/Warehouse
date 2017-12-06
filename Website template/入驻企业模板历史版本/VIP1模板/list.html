@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<head><title>延安文化产业投资有限公司</title>
+	<meta name="keywords" content="陕西文化产业投资控股（集团）有限公司" />
+	<meta name="description" content="陕西文化产业投资控股（集团）有限公司" />
+	<meta name="author" content="" />
+	<link rel="shortcut icon" href="/shwt/Public/Home/favicon.ico" />
+	<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+	<script type="text/javascript" src="js/banner.js"></script>
+		
+
+</head>
+<body>
+<!-- 头部 -->
+    <div class="header wl relative">
+        <div class="g-wrap">
+            <a class="wt-logo fl" href="/shwt/index.php/home/index/index.html"></a><a class="cy-logo" href="/shwt/index.php/home/index/index.html"><span style=" background-image:url(images/logo-8.png)"></span></a>
+            <ul class="nav absolute" id="nav">
+                <li ><a href="/shwt/index.php/home/article/lists/category/139.html"><span> 首 页 </span></a></li>
+				<li><a  href="http://www.shanwentou.com.cn/shwt/index.php/Home/Article/detail/id/1131.html"><span> 公司简介</span></a></li><li><a class="on" href="/shwt/index.php/home/article/lists/category/144.html"><span> 公司动态</span></a></li><li><a  href="/shwt/index.php/home/article/lists/category/140.html"><span> 公司要闻</span></a></li><li><a  href="/shwt/index.php/home/article/lists/category/143.html"><span> 联系我们</span></a></li>            </ul>
+			<div class="search">
+				<form name="" action="/shwt/index.php/home/article/search.html"  method="post" class="searchform">
+					<input name="all_title" type="text" class="input-kw" >
+					<input type="hidden" value="139" name="ids" />
+					<input class="input-btn"  type="submit"  value="">
+				</form>
+			</div>
+        </div>
+		<div class="blank-l"></div>
+    </div>
+<!-- /头部 -->
+<!-- 主体 -->
+
+<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery.sgallery.js"></script>
+
+	<script type="text/javascript">
+$(document).ready(function (){
+	//最小字号
+	var min=14; 	
+	//最大字号
+	var max=20;	
+	
+	var reset = $('p').css('fontSize'); 
+	
+	var elm = $('div.intro, div.ending');  
+	
+	var size = str_replace(reset, 'px', ''); 
+	
+	//放大字体
+	$('a.fontSizePlus').click(function() {
+		if (size<=max) {
+			//增加大小
+			size++;
+			//设定字体尺寸
+			elm.css({'fontSize' : size});
+		}
+		//取消一个单击事件
+		return false;	
+		
+	});
+
+	$('a.fontSizeMinus').click(function() {
+		//如果字体大小更大或比最小值相等
+		if (size>=min) {
+			//减少尺寸
+			size--;
+			//设定字体尺寸
+			elm.css({'fontSize' : size});
+		}
+		//取消一个单击事件
+		return false;	
+		
+	});
+	
+	//重置字体大小
+	$('a.fontReset').click(function () {
+		//设置默认字体大小
+		 elm.css({'fontSize' : 16});		
+	});
+		
+});
+//一个字符串替换函数
+function str_replace(haystack, needle, replacement) {
+	var temp = haystack.split(needle);
+	return temp.join(replacement);
+}
+</script>
+	<script type="text/javascript">//板块动态
+$(function(){
+var page= 1;
+var i = 1;//每版四个图片
+//向右滚动
+$(".next1").click(function(){ //点击事件
+var v_wrap = $(this).parents(".scroll1"); // 根据当前点击的元素获取到父元素
+var v_show = v_wrap.find(".scroll_list"); //找到视频展示的区域
+var v_cont = v_wrap.find(".box"); //找到视频展示区域的外围区域
+var v_width = v_cont.width();
+var len = v_show.find("li").length; //我的视频图片个数
+var page_count = Math.ceil(len/i); //只要不是整数，就往大的方向取最小的整数
+if(!v_show.is(":animated")){
+if(page == page_count){
+v_show.animate({left:'0px'},"slow");
+page =1;
+}else{
+v_show.animate({left:'-='+v_width},"slow");
+page++;
+}
+}
+});
+//向左滚动
+$(".prev1").click(function(){ //点击事件
+var v_wrap = $(this).parents(".scroll1"); // 根据当前点击的元素获取到父元素
+var v_show = v_wrap.find(".scroll_list"); //找到视频展示的区域
+var v_cont = v_wrap.find(".box"); //找到视频展示区域的外围区域
+var v_width = v_cont.width();
+var len = v_show.find("li").length; //我的视频图片个数
+var page_count = Math.ceil(len/i); //只要不是整数，就往大的方向取最小的整数
+if(!v_show.is(":animated")){
+if(page == 1){
+v_show.animate({left:'-='+ v_width*(page_count-1)},"slow");
+page =page_count;
+}else{
+v_show.animate({left:'+='+ v_width},"slow");
+page--;
+}
+}
+});
+});
+</script>
+    <div id="content">
+		<div class="banner-about" style="height:100px;width:1200px; margin:0 auto; text-align:center;">
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1200" height="100">
+			  <param name="movie" value="/shwt/Public/Home/images/01.swf" />
+			  <param name="quality" value="high" />
+			  <embed src="flash/01.swf " quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1200" height="100"></embed>
+			</object>
+		</div>
+		<div class="g-wrap crumbs">
+					<span><a href="/shwt/index.php/home/index/index.html">首页</a>><a href="#">企业集群</a>><a href="/shwt/index.php/home/article/lists/category/144.html">延安文化产业投资有限公司</a>><a href="/shwt/index.php/home/article/lists/category/144.html">公司动态</a>
+				</div>
+		<div class="g-wrap  show-content">
+			<div id="printArea" class="p-left">
+				
+				<h2 class="tith2"></h2>
+				<h1 class="tith1">百名记者走进枣园广场感受红色文化，共度记者节</h1>
+				<h2 class="tith2"></h2>
+				
+				<div class="p-time">
+					<span>来源：延安文投</span> <span>阅读：589 次</span> 	<span>2015-11-13 11:36:55</span> 
+					<div class="sharebox">
+						<div class="bdsharebuttonbox fl"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到打印" href="#" class="bds_print" data-cmd="print"></a></div>
+	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+						<div class="font-nav fl"><a href="javascript:void(0);" class="fontSizePlus">A+</a><span></span><a href="javascript:void(0);" class="fontSizeMinus">A-</a></div>
+					</div>
+				</div>
+								<div class="p-content intro">
+					<p><p style="text-indent:2em;">
+	11月8日，第16个记者节之际，延安文化产业投资有限公司、三秦都市报、三秦网共同主办的“百名记者赴延安枣园广场庆祝记者节”如期举行。在枣园旧址革命精神光芒的照耀下，百名记者在枣园广场集结，同时，还有来自延安大学新闻专业的五十名大学生，共同感受红色文化的魅力，体味延安精神的时代内涵。
+</p>
+<p>
+	<img src="picture/564559ab1d8d5.jpg" alt="" width="600" height="391" title="" />
+</p>
+<p style="text-indent:2em;">
+	延安精神在中国的革命和建设中发挥了巨大的精神动力作用，它象征理想、自由、责任、激情和浪漫。继承和发扬延安精神，对每一名新闻人来说，在任何时期都至关重要。本次活动旨在激励更多的新闻工作的后继者们，朝着梦想的方向坚定前行。
+</p>
+<p>
+	<img src="picture/564559da92a1d.jpg" alt="" width="600" height="413" title="" />
+</p>
+<p style="text-indent:2em;">
+	<br />
+</p>
+<p style="text-indent:2em;">
+	走进延安1938文化街区，穿过旅游民俗区、品质体验区再到特色美食区，无不感受着强烈的红色文化的冲击，记者们被浓浓的红色氛围所包裹。在街道的夯土墙和房屋背墙上，随处可见八路军的宣传标语和宣传画：“人民群众是真正的铜墙铁壁”、“自己动手丰衣足食”……再看广场上的《追梦》雕塑，以及东西两侧六面大型金色浮雕，每一幅画面，都从不同侧面生动再现着那个如火如荼的年代。
+</p>
+<p>
+	<img src="picture/56455a064aec6.jpg" alt="" width="600" height="400" title="" />
+</p>
+<p style="text-indent:2em;">
+	记者和延大学生在延安1938文化街区交流、沟通，一起唱着南泥湾，共同重温那个激情燃烧的岁月。参与记者们纷纷表达，枣园广场就是对文化延安、时尚延安的一次综合升华与表达，传递出了新时代的红色文化内涵。
+</p>
+<div>
+	<img src="picture/56455abfa8562.jpg" alt="" width="600" height="404" title="" align="" /><br />
+</div>
+<p style="text-indent:2em;">
+	<br />
+</p>
+<p style="text-indent:2em;">
+	<br />
+</p>
+<p style="text-indent:2em;">
+	<br />
+</p></p>
+								
+				</div>
+				<div class="pagepre">
+					<a href="/shwt/index.php/home/article/detail/id/2062.html"> <span>上一篇：</span>“延创优品”首登购物狂欢节 延安土特产销量飚红  </a>					<a href="/shwt/index.php/home/article/detail/id/2066.html"> <span>下一篇：</span>枣园广场首届单身节主题派对圆满落幕  </a>				</div>
+			</div>
+			<div class="p-right">
+				<div class="s-box">
+					<h2>最新文章</h2>
+					<ul class="side-news">
+						<li><a href="/shwt/index.php/home/article/detail/id/2121.html">保利文化集团总经理蒋迎春考察延安枣园文化广场</a></li><li><a href="/shwt/index.php/home/article/detail/id/2465.html">延安1938街区十大新店迎新春</a></li><li><a href="/shwt/index.php/home/article/detail/id/2464.html">延安1938年货节亮相南金金鹰购物中心</a></li><li><a href="/shwt/index.php/home/article/detail/id/2057.html">董伟梁桂徐新荣姜锋调研延安枣园文化广场</a></li><li><a href="/shwt/index.php/home/article/detail/id/2064.html">百名记者走进枣园广场感受红色文化，共度记者节</a></li>					</ul>
+				</div><div class="s-box">
+					<h2>热门文章</h2>
+					<ul class="side-news">
+						<li><a href="/shwt/index.php/home/article/detail/id/2121.html">保利文化集团总经理蒋迎春考察延安枣园文化广场</a></li><li><a href="/shwt/index.php/home/article/detail/id/2465.html">延安1938街区十大新店迎新春</a></li><li><a href="/shwt/index.php/home/article/detail/id/2464.html">延安1938年货节亮相南金金鹰购物中心</a></li><li><a href="/shwt/index.php/home/article/detail/id/2057.html">董伟梁桂徐新荣姜锋调研延安枣园文化广场</a></li><li><a href="/shwt/index.php/home/article/detail/id/2064.html">百名记者走进枣园广场感受红色文化，共度记者节</a></li>					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- /主体 -->
+<!-- 底部 -->
+	<div id="footer" class="footerwarp">
+		<div class="g-wrap">
+			<div class="copyright">Copyright ©  陕西文化产业投资控股（集团）有限公司  主办：陕文投集团信息办 陕ICP备：22335851号</div>
+			<div class="ft-menu">
+				<a class="map" href="index.php?m=Home&c=Article&a=lists&category=23"></a>
+				<a class="email" href="https://mail.shanwentou.com.cn/exchange" target="_blank"></a>
+				<a class="sina" href=""></a>
+				<a class="weixin" href=""></a>
+
+			</div>	
+			<div class="q-entry">
+				<a href="http://117.23.4.37" target="_blank">OA登录</a>
+				<!--<a href="/shwt/index.php/home/article/wzmap.html">网站地图</a>|-->
+				<a href="">法律声明</a>|
+				<a href="http://www.ccitrc.com/" target="_blank">友情链接</a>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/lw-service.js"></script>
+<script type="text/javascript">
+function player(id){
+var id=document.getElementById(id)
+id.style.display="block";
+}
+function clocer(id){
+var id=document.getElementById(id)
+id.style.display="none";
+}
+</script>
+<style>
+.online_wb_layer{
+    bottom: 0;
+    cursor: pointer;
+    height: 39px;
+    left: 50%;
+    margin-left: 290px;
+    position: fixed;
+    width: 47px;
+    z-index: 3;
+}
+.online_wb_layer span {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+    display: block;
+    height: 39px;
+    margin-bottom: 2px;
+    text-indent: -9999px;
+    width: 47px;
+}
+.divbox img{
+	border:1px solid #ddd;
+}
+</style>
+<div class="online_wx_layer">	
+	<a class="weixin" href=""><span OnMouseOver="player('any1');" onMouseOut="clocer('any1');" style="cursor:hand;"></span></a>
+	<div class="divbox">
+		<div id="any1" class="moress" OnMouseOver="player('any1');" onMouseOut="clocer('any1');">
+			<p><img src="picture/wx.jpg" width="160" /></p>
+		</div>
+	</div>
+</div>
+<div class="online_wb_layer">		
+	<a class="weibo" href=""><span style="cursor:hand;" onmouseout="clocer('any2');" onmouseover="player('any2');"></span></a>
+	<div class="divbox">
+		<div onmouseout="clocer('any2');" onmouseover="player('any2');" class="moress" id="any2" style="display: none;">
+		  	<p><img src="picture/wb.jpg" width="160" ></p>
+		</div>
+	</div>
+</div>
+
+	
+
+<!-- /底部 -->
+</body>	
+</html>

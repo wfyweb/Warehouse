@@ -1,0 +1,496 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<head><title>陕文投集团</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<link rel="shortcut icon" href="/shwt/Public/Home/images/favicon.ico" />
+	<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery.sgallery.js"></script>
+	<script type="text/javascript">
+$(document).ready(function (){
+	//最小字号
+	var min=14; 	
+	//最大字号
+	var max=20;	
+	
+	var reset = $('p').css('fontSize'); 
+	
+	var elm = $('div.intro, div.ending');  
+	
+	var size = str_replace(reset, 'px', ''); 
+	
+	//放大字体
+	$('a.fontSizePlus').click(function() {
+		if (size<=max) {
+			//增加大小
+			size++;
+			//设定字体尺寸
+			elm.css({'fontSize' : size});
+		}
+		//取消一个单击事件
+		return false;	
+		
+	});
+
+	$('a.fontSizeMinus').click(function() {
+		//如果字体大小更大或比最小值相等
+		if (size>=min) {
+			//减少尺寸
+			size--;
+			//设定字体尺寸
+			elm.css({'fontSize' : size});
+		}
+		//取消一个单击事件
+		return false;	
+		
+	});
+	
+	//重置字体大小
+	$('a.fontReset').click(function () {
+		//设置默认字体大小
+		 elm.css({'fontSize' : 16});		
+	});
+		
+});
+//一个字符串替换函数
+function str_replace(haystack, needle, replacement) {
+	var temp = haystack.split(needle);
+	return temp.join(replacement);
+}
+</script>
+	<script type="text/javascript">//板块动态
+$(function(){
+var page= 1;
+var i = 1;//每版四个图片
+//向右滚动
+$(".next1").click(function(){ //点击事件
+var v_wrap = $(this).parents(".scroll1"); // 根据当前点击的元素获取到父元素
+var v_show = v_wrap.find(".scroll_list"); //找到视频展示的区域
+var v_cont = v_wrap.find(".box"); //找到视频展示区域的外围区域
+var v_width = v_cont.width();
+var len = v_show.find("li").length; //我的视频图片个数
+var page_count = Math.ceil(len/i); //只要不是整数，就往大的方向取最小的整数
+if(!v_show.is(":animated")){
+if(page == page_count){
+v_show.animate({left:'0px'},"slow");
+page =1;
+}else{
+v_show.animate({left:'-='+v_width},"slow");
+page++;
+}
+}
+});
+//向左滚动
+$(".prev1").click(function(){ //点击事件
+var v_wrap = $(this).parents(".scroll1"); // 根据当前点击的元素获取到父元素
+var v_show = v_wrap.find(".scroll_list"); //找到视频展示的区域
+var v_cont = v_wrap.find(".box"); //找到视频展示区域的外围区域
+var v_width = v_cont.width();
+var len = v_show.find("li").length; //我的视频图片个数
+var page_count = Math.ceil(len/i); //只要不是整数，就往大的方向取最小的整数
+if(!v_show.is(":animated")){
+if(page == 1){
+v_show.animate({left:'-='+ v_width*(page_count-1)},"slow");
+page =page_count;
+}else{
+v_show.animate({left:'+='+ v_width},"slow");
+page--;
+}
+}
+});
+});
+</script>
+</head>
+<body>
+    <div id="header">
+        <div class="wrap">
+            <a id="logo" href="/shwt/index.php/home/index/index.html"></a>
+			<div class="navigate">
+				<div class="navi">
+					<ul class="" id="nav" style="display:none;">
+						<li><a href="#"></a></li>
+					</ul>
+					<ul>
+						<li><a class="items" href="/shwt/index.php/home/index/index.html">首 页</a></li>					
+						<li>
+							<a 									class="items"							href="/shwt/index.php/home/article/lists/category/1.html"> 新闻中心</a>
+							<div class="navi_content" style="left:-86px; width:670px; ">
+								<div class="item news">
+									<div class="tit ffy">
+										<span class="SwapTab">
+											<span ><a href="/shwt/index.php/home/article/lists/category/2.html">集团要闻</a></span><span ><a href="/shwt/index.php/home/article/lists/category/3.html">板块动态</a></span><span ><a href="/shwt/index.php/home/article/lists/category/4.html">媒体聚焦</a></span><span ><a href="/shwt/index.php/home/article/lists/category/5.html">产业动态</a></span>										</span>
+									</div>
+									<div class="tab-content">
+										<div class="list-news">
+											<ul>
+												<li class="hot">
+														<h2><a href="/shwt/index.php/home/article/detail/id/4020.html" target="_blank">陕西历史博物馆与SCG陕文投集团就馆企合作开展交流座谈 </a></h2>
+														<p>近日，陕西历史博物馆党委书记、馆长强跃，副馆长田景超及各部门负责人一行到访SCG陕文投集团，就馆企合作进行座谈交流。陕文投集团党委副书记、副总经理闫少非出席，华夏文创公...<a href="/shwt/index.php/home/article/detail/id/4020.html">查看全文</a></p>
+													</li>
+																									<li>><a href="/shwt/index.php/home/article/detail/id/3997.html" target="_blank">韩国CJ集团中国区总裁到访延安枣园文化广场</a></li>													<li>><a href="/shwt/index.php/home/article/detail/id/3980.html" target="_blank">SCG陕文投五部电视剧摘得“优秀电视剧奖”</a></li>											</ul>											
+										</div>	
+										<div class="hidden list-news">			
+											<ul>
+												<li class="hot">
+														<h2><a href="/shwt/index.php/home/article/detail/id/3589.html" target="_blank">首届“特色文化产业与扶贫攻坚高峰论坛”专家齐聚照金 </a></h2>
+														<p> 10月23日，首届“特色文化产业与扶贫攻坚高峰论坛”专家代表齐聚照金，就照金特色文化产业在扶贫攻坚中的地位、作用和途径进行研讨交流。<a href="/shwt/index.php/home/article/detail/id/3589.html">查看全文</a></p>
+													</li>
+																									<li>><a href="/shwt/index.php/home/article/detail/id/3488.html" target="_blank">献礼红军长征胜利80周年 枣园文化广场4D巨幕电影《阿良的长征》首映</a></li>													<li>><a href="/shwt/index.php/home/article/detail/id/3401.html" target="_blank">《红旗漫卷西风》10月21日东方卫视开播</a></li>											</ul>
+										</div>
+										<div class="hidden list-news">
+											<ul>
+												<li class="hot">
+														<h2><a href="http://epaper.ccdy.cn/html/2017-02/15/content_196623.htm" target="_blank">中国文化报：匾额文化何处寻 </a></h2>
+														<p>从春秋时期开始，匾额被广泛应用，形成我国独特的文化现象。但随着社会发展，曾经高悬的匾额如今逐渐淡出民众生活。匾额去了何处？其存在的价值和意义何在？<a href="/shwt/index.php/home/article/detail/id/4000.html">查看全文</a></p>
+													</li>
+													
+												
+													<li>><a href="http://esb.sxdaily.com.cn/sxrb/20170126/html/page_07_content_000.htm" target="_blank">中共中央办公厅 国务院办公厅印发《关于实施中华优秀传统文化传承发展工程的意见》</a></li>	
+												
+													<li>><a href="http://ehsb.hsw.cn/shtml/hsb/20170119/629555.shtml" target="_blank">“追赶超越 腾飞陕西”2016年度评选结果出炉</a></li>											</ul>
+										</div>	
+										<div class="hidden list-news">
+											<ul>
+												<li class="hot">
+														<h2><a href="http://www.shaanxici.cn/content/2017-02/22/content_14511637.htm" target="_blank">习近平如何向世界讲中国故事？ </a></h2>
+														<p>十八大以来的4年多，习近平主席每次出访，不论是会谈、交流还是撰文、演讲，都在努力做一件事情，那就是“讲好中国故事”。<a href="/shwt/index.php/home/article/detail/id/3995.html">查看全文</a></p>
+													</li>
+													
+													<li>><a href="http://www.cnci.net.cn/content/2017-02/21/content_15478349.htm" target="_blank">文物&quot;十三五&quot;规划出台 打造50个博物馆文创产品品牌</a></li>	
+													<li>><a href="http://www.cnci.net.cn/content/2017-02/08/content_15225230.htm" target="_blank">2017国家文化产业新政</a></li>											</ul>
+										</div>												
+									</div>
+									<script>
+										//tab切换
+										$(function(){
+											new SwapTab(".SwapTab","span",".tab-content","div","fb");
+										})
+									</script>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<a class="items" href="#"> 企业集群</a>
+							<div class="navi_content" style="left:-230px; width:730px; ">
+								<div class="item company">
+									<div class="lista">
+										<a href="/shwt/index.php/home/article/lists/category/61.html" target="_blank">陕西文化产业（影视）投资有限公司</a><a href="/shwt/index.php/home/article/lists/category/116.html" target="_blank">陕西文投影业投资管理有限公司</a><a href="/shwt/index.php/home/article/lists/category/122.html" target="_blank">西安电视剧版权交易中心有限公司</a><a href="/shwt/index.php/home/article/lists/category/56.html" target="_blank">陕西华夏文化创意有限责任公司</a><a href="http://www.scgartwork.com/" target="_blank">陕西书画艺术品交易中心有限公司</a><a href="/shwt/index.php/home/article/lists/category/50.html" target="_blank">陕西文化产业（西安）投资有限公司</a><a href="/shwt/index.php/home/article/lists/category/133.html" target="_blank">陕西照金文化旅游投资开发有限公司</a><a href="/shwt/index.php/home/article/lists/category/139.html" target="_blank">延安文化产业投资有限公司</a><a href="/shwt/index.php/home/article/lists/category/145.html" target="_blank">榆林文化旅游产业投资有限公司</a><a href="/shwt/index.php/home/article/lists/category/151.html" target="_blank">陕西文化产业（韩城）投资有限公司</a><a href="/shwt/index.php/home/article/lists/category/157.html" target="_blank">陕西文投安康文化旅游投资有限公司</a><a href="/shwt/index.php/home/article/lists/category/163.html" target="_blank">陕西曼蒂商业运营管理有限公司</a><a href="/shwt/index.php/home/article/lists/category/169.html" target="_blank">陕西文投国际贸易有限公司</a><a href="http://westernmedia.cn/" target="_blank">陕西西部广告传媒有限公司</a><a href="http://www.sncaee.cn/" target="_blank">陕西文化产权交易所有限公司</a><a href="/shwt/index.php/home/article/lists/category/45.html" target="_blank">陕西文化产业小额贷款有限公司</a><a href="/shwt/index.php/home/article/lists/category/185.html" target="_blank">陕西文化产业融资担保有限公司</a><a href="http://www.scgpimc.com/" target="_blank">陕西文化产业投资管理有限公司</a><a href="http://www.wenchuangjinrong.com" target="_blank">陕西文化金融信息服务中心有限公司</a><a href="http://www.introtec.cn/" target="_blank">陕西云创网络科技股份有限公司</a><a href="/shwt/index.php/home/article/lists/category/180.html" target="_blank">陕西曼蒂置业有限公司</a>									</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<a 									class="items"								href="/shwt/index.php/home/article/lists/category/7.html"> 产业板块</a>
+							<div class="navi_content" style="left:-253px; width:670px; ">
+								<div class="item industry">
+									<div class="aboutul">
+										<dl>
+												<dt><a href="/shwt/index.php/home/article/lists/category/11.html">影视娱乐</a></dt>
+												<!--<dd>
+																									</dd>-->
+											</dl><dl>
+												<dt><a href="/shwt/index.php/home/article/lists/category/10.html">艺术投资</a></dt>
+												<!--<dd>
+																									</dd>-->
+											</dl><dl>
+												<dt><a href="/shwt/index.php/home/article/lists/category/12.html">文化旅游</a></dt>
+												<!--<dd>
+																									</dd>-->
+											</dl><dl>
+												<dt><a href="/shwt/index.php/home/article/lists/category/13.html">文化金融</a></dt>
+												<!--<dd>
+																									</dd>-->
+											</dl><dl>
+												<dt><a href="/shwt/index.php/home/article/lists/category/9.html">现代传媒</a></dt>
+												<!--<dd>
+																									</dd>-->
+											</dl><dl>
+												<dt><a href="/shwt/index.php/home/article/lists/category/8.html">互联网</a></dt>
+												<!--<dd>
+													<a href="/shwt/index.php/home/article/detail/id/609.html">欢乐中国城鸟瞰图</a><a href="/shwt/index.php/home/article/detail/id/607.html">穿越秦地宫</a>												</dd>-->
+											</dl>										
+									</div>									
+								</div>
+							</div>
+						</li>	
+						<li><a 									class="items"								href="/shwt/index.php/home/article/lists/category/14.html">文投电商</a></li>
+						<li>
+							<a 									class="items" 
+								href="/shwt/index.php/home/article/lists/category/15.html"> 走进文投</a>
+							<div class="navi_content" style="left:-419px; width:670px; ">
+								<div class="item about">
+									<ul class="aboutul">
+										<li><a href="/shwt/index.php/home/article/lists/category/16.html">集团简介</a></li><li><a href="/shwt/index.php/home/article/lists/category/17.html">董事长致辞</a></li><li><a href="/shwt/index.php/home/article/lists/category/18.html">领导班子</a></li><li><a href="/shwt/index.php/home/article/lists/category/19.html">组织架构</a></li><li><a href="/shwt/index.php/home/article/lists/category/72.html">党群建设</a></li><li><a href="/shwt/index.php/home/article/lists/category/20.html">所获荣誉</a></li><li><a href="/shwt/index.php/home/article/lists/category/22.html">大事记</a></li><li><a href="/shwt/index.php/home/article/lists/category/21.html">招贤纳士</a></li><li><a href="/shwt/index.php/home/article/lists/category/23.html">联系我们</a></li>									</ul>
+								</div>
+							</div>
+						</li>	
+
+					</ul>
+				</div>
+			</div>
+           
+            <!--<div id="shop">
+				<a href="">求职通道</a>|<a href="">投资关系</a>  
+            </div>-->
+			<div id="lr_systembtn" class="lr_systembtn">
+				<a class="btn-lang" href="">语言</a>
+				<div id="lr_menu" class="lr_menu">
+					<div class="bg">
+						<a href="">中文简体</a>
+						<a class="en" href="http://en.shanwentou.com.cn/index.php/Home/Index/index.html" target="_blank">English</a>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					var lr_systembtn = $("#lr_systembtn");
+					var lr_menu = $("#lr_menu");
+					lr_systembtn.mouseenter(function(){
+						t_delay= setTimeout(function(){
+							lr_menu.fadeIn("slow");
+						},200);
+					});
+					lr_systembtn.mouseleave(function(){
+						clearTimeout(t_delay);
+						lr_menu.fadeOut("slow");
+					});
+
+				});
+			</script>
+			<div class="search">
+				<form name="" action="/shwt/index.php/home/article/search.html"  method="post" class="searchform">
+					<input name="all_title" type="text" class="input-kw" >
+					<input class="input-btn"  type="submit"  value="">
+				</form>
+			</div>
+        </div>
+    </div>
+    <div id="content">
+		<div class="banner-about" style="height:100px;width:1200px; margin:0 auto; text-align:center;">
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1200" height="100">
+			  <param name="movie" value="/shwt/Public/Home/images/01.swf" />
+			  <param name="quality" value="high" />
+			  <param name="wmode" value="transparent">
+			  <embed src="flash/01.swf " quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1200" height="100"></embed>
+			</object>
+		</div>
+		<div class="g-wrap crumbs">
+					<span><a href="/shwt/index.php/home/index/index.html">首页</a>><a href="/shwt/index.php/home/article/lists/category/144.html">延安文化产业投资有限公司</a>><a href="/shwt/index.php/home/article/lists/category/144.html">公司动态</a>
+				</div>
+		<div class="g-wrap  show-content">
+			<div id="printArea" class="p-left">
+				
+				<h2 class="tith2"></h2>
+				<h1 class="tith1">延安1938街区十大新店迎新春</h1>
+				<h2 class="tith2"></h2>
+				
+				<div class="p-time">
+					<span>来源：</span> <span>阅读：846 次</span> 	<span>2016-01-26 09:45:00</span> 
+					<div class="sharebox">
+						<div class="bdsharebuttonbox fl"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到打印" href="#" class="bds_print" data-cmd="print"></a></div>
+	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+						<div class="font-nav fl"><a href="javascript:void(0);" class="fontSizePlus">A+</a><span></span><a href="javascript:void(0);" class="fontSizeMinus">A-</a></div>
+					</div>
+				</div>
+				<div class="trends">
+					<div class="scroll1 trends-div">
+						<!-- "prev page" link -->
+						<a class="prev1" ></a>
+						<div class="box">
+							<div class="scroll_list">
+								<ul>						
+									<li>
+											<div class="p-imgs"><img src="picture/56a6d0132f12e.jpg"  alt="" /><span></span></div>
+											<p>烛生活</p>
+										</li><li>
+											<div class="p-imgs"><img src="picture/56a6d01461a58.jpg"  alt="" /><span></span></div>
+											<p>北国羊肉包</p>
+										</li><li>
+											<div class="p-imgs"><img src="picture/56a6d01573654.jpg"  alt="" /><span></span></div>
+											<p>陈氏驴肉</p>
+										</li><li>
+											<div class="p-imgs"><img src="picture/56a6d016cd79a.jpg"  alt="" /><span></span></div>
+											<p>定边炉馍</p>
+										</li><li>
+											<div class="p-imgs"><img src="picture/56a6d0184e301.jpg"  alt="" /><span></span></div>
+											<p>恋上手工花</p>
+										</li><li>
+											<div class="p-imgs"><img src="picture/56a6d019b590a.jpg"  alt="" /><span></span></div>
+											<p>零食小铺</p>
+										</li><li>
+											<div class="p-imgs"><img src="picture/56a6d01b7fcf0.jpg"  alt="" /><span></span></div>
+											<p>傻儿焖锅</p>
+										</li><li>
+											<div class="p-imgs"><img src="picture/56a6d01cecef8.jpg"  alt="" /><span></span></div>
+											<p>陕北烤肉</p>
+										</li><li>
+											<div class="p-imgs"><img src="picture/56a6d01e92e98.jpg"  alt="" /><span></span></div>
+											<p>文创枣园店</p>
+										</li><li>
+											<div class="p-imgs"><img src="picture/56a6d01fd3f37.jpg"  alt="" /><span></span></div>
+											<p>心有所薯</p>
+										</li>								</ul>
+							</div>
+						</div>
+						<!-- "next page" link -->
+						<a class="next1" ></a>
+					</div>
+				</div>				<div class="p-content intro">
+					<p><p class="MsoNormal" style="text-indent:2em;">
+	岁末年初，很多人选择来到枣园广场·延安1938街区，用最特别的方式迎接新年的到来。街区内人流如织，熙熙攘攘，络绎不绝。正宗陕北美食满足大家挑剔的味蕾，在这年代感十足的氛围里吃饭，还真有种穿越回1938的实感。特色文创产品广受好评，创意十足的设计、新奇有趣的创意，让每一个进店的朋友爱不释手。值得一提的是，枣园广场·延安1938街区又有新势力诞生了，10家文创精品和特色美食店强势入驻。
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>&nbsp;1心有所薯
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>怀念街边汽油桶烤炉里用蜂窝煤烘烤出的红薯的香甜滋味吗？这一次1938街区也有了，并且是更卫生，更健康的升级版，精挑细选的红薯们都来自名产地甘谷驿镇，确保你吃到的每一口都肉质细腻、甘甜浓郁。
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>2<span style="font-family:微软雅黑;">烛生活创意</span><span style="font-family:Tahoma;">DIY</span><span style="font-family:微软雅黑;">馆</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>这里是以蜡烛和其他辅助材料为原料，设计制作自己喜欢的各种创意产品。在心灵手巧的店主姑娘温柔耐心的讲解教授下，相信大朋友小朋友们都能完成属于自己的<span style="font-family:Tahoma;">DIY</span><span style="font-family:微软雅黑;">手工大作。</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>3<span style="font-family:微软雅黑;">恋上手工花</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>丝网花以五彩铁丝及丝袜纯手工制作而成，是创造性和实用性的完美结合。它色泽多样、造型逼真，不易褪色，历久如新，可根据个人喜好自行搭配，还有什么比自己完成的作品来装点日常生活更有成就感呢？快来感受下吧。
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>4<span style="font-family:微软雅黑;">寇小姐零食小铺</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>怀念儿时汾煌雪梅、杏肉、豆干、牛肉王的味道吗？这里统统都有，主打延安地区以外的海内外特色零食，吮指肉条、手撕牛肉、惊奇脆片饼、五香肉干、湖南毛毛鱼、苏打饼干、酱汁青豌豆、绿宝石葡萄干、红香妃葡萄干、开心果、八旦木、碧根果以及来自新疆的特级干果等等，总有一样符合你挑剔的味蕾。
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>5<span style="font-family:微软雅黑;">中华文创枣园店</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>以充满文化韵味、涌动时尚创意的文创精品为主，规模空前，阵容强大，分别以兵马俑文创系列、荣誉系列、兵兵有礼系列、汉风系列、唐韵系列五大主题进行展陈。兼具文化性和趣味性，高雅贵重有之，趣味可爱有之，实乃送礼、留念之佳品。
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>6<span style="font-family:微软雅黑;">北国羊肉包、砸洋芋搅团</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>北国羊肉包精选在地优质羊肉，纯手工烹制而成，包身松软色白，馅心鲜香饱满，味浓而不膻，是冬季食用之佳品，具有驱寒补阳的神奇功效。<o:p></o:p>北国砸洋芋搅团，顾名思义是用木锤慢慢地砸揉洋芋至莹莹放光、韧柔如胶的糊状，盛入炝煮的特质融醋、油泼蒜、辣子等，其风味独特，口感滑润、清香，是美食养生的理想之选。
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>7<span style="font-family:微软雅黑;">定边炉馍、麻花</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>定边炉馍以其做工精细、酥脆可口、馅味清香而闻名遐迩，制作工艺、用面、用油极为考究，被誉为“中华国饼”，历经三百年历史传承，赢得了四海美誉，八方食客。逢年过节是您用做礼品，匠心独具的选择。<o:p></o:p>定边三六股麻花驰名中外，色泽诱人、鲜香酥脆，既可休闲品味，又可佐酒伴茶，是理想的休闲小食品。
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>8<span style="font-family:微软雅黑;">陈氏驴肉馆</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>驴肉肉质细嫩、味道鲜美，其性味甘凉，可补气养血、安神去燥，同时因其脂肪、胆固醇含量远低于其他肉类，实乃养生佳品。陈氏驴肉是有<span style="font-family:Tahoma;">70</span><span style="font-family:微软雅黑;">年历史的老字号品牌，菜品既传承了古早的口感又进行了深层次的改良，是老饕们不能错过的美食。</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>9<span style="font-family:微软雅黑;">陕北烤肉</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>陕北烤肉就像咱陕北山歌一样淳朴实在，惊艳绝伦。滋滋流油的大肉串配上孜然和辣椒粉的浓烈香味，又怎是一个诱人了得。爽快好客的老板兴起时，随口高歌一曲，都是那原汁原味的信天游。
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>10<span style="font-family:微软雅黑;">傻儿焖锅</span> 
+</p>
+<p class="MsoNormal" style="text-indent:2em;">
+	<o:p></o:p>以焖为主，辅以特色浓郁上汤，排骨、时蔬、油、盐、酱、醋、葱、辣、姜、蒜等百味佐料，一起入锅，盖上盖，大火到小火，一焖到底。这么了不得的一锅上桌，可不是馋的人口水直流、食指大动吗？<o:p></o:p>
+</p></p>		
+				</div>
+				<div class="pagepre">
+					<a href="/shwt/index.php/home/article/detail/id/2464.html"> <span>上一篇：</span>延安1938年货节亮相南金金鹰购物中心  </a>									</div>
+			</div>
+			<div class="p-right">
+				<div class="s-box">
+					<h2>最新文章</h2>
+					<ul class="side-news">
+					<li><a href="/shwt/index.php/home/article/detail/id/3351.html">西安影视数据评估中心揭牌成立</a></li><li><a href="/shwt/index.php/home/article/detail/id/3344.html">重庆市委常委、宣传部部长燕平一行到访陕文投</a></li><li><a href="/shwt/index.php/home/article/detail/id/3089.html">交通部支持照金红色旅游小镇发展</a></li><li><a href="/shwt/index.php/home/article/detail/id/2998.html">国际版权组织亚太地区代表到访陕文投</a></li><li><a href="/shwt/index.php/home/article/detail/id/2939.html">北京大学文化产业研究院副院长陈少峰教授到访陕文投集团</a></li><li><a href="/shwt/index.php/home/article/detail/id/2871.html">省商务厅副厅长李生荣到访陕文投集团</a></li>					</ul>
+				</div>
+				<div class="s-box">
+					<h2>热门文章</h2>
+					<ul class="side-news">
+					<li><a href="/shwt/index.php/home/article/detail/id/6.html">陕西日报：胡和平在我省宣传文化系统调研时强调</a></li><li><a href="/shwt/index.php/home/article/detail/id/7.html">加强“一带一路”文化遗产保护</a></li><li><a href="/shwt/index.php/home/article/detail/id/10.html">延安文化创意商业联盟携40家重点商户西安考察</a></li><li><a href="/shwt/index.php/home/article/detail/id/11.html">让人民享有更多文化发展成果</a></li><li><a href="/shwt/index.php/home/article/detail/id/13.html">陕文投获2013年全省爱心单位称号</a></li><li><a href="/shwt/index.php/home/article/detail/id/14.html">陕文投获2013年全省文秘工作先进集体</a></li>					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer" class="footerwarp">
+		<div class="g-wrap">
+			<div class="copyright">Copyright ©  陕西文化产业投资控股（集团）有限公司  主办：陕文投集团信息办 陕ICP备：22335851号</div>
+			<div class="ft-menu">
+				<a class="map" href="index.php?m=Home&c=Article&a=lists&category=23"></a>
+				<a class="email" href="https://mail.shanwentou.com.cn/exchange" target="_blank"></a>
+				<a class="sina" href=""></a>
+				<a class="weixin" href=""></a>
+
+			</div>	
+			<div class="q-entry">
+				<a href="http://117.23.4.37" target="_blank">OA登录</a>
+				<!--<a href="/shwt/index.php/home/article/wzmap.html">网站地图</a>|-->
+				<a href="">法律声明</a>|
+				<a href="http://www.ccitrc.com/" target="_blank">友情链接</a>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/lw-service.js"></script>
+<script type="text/javascript">
+function player(id){
+var id=document.getElementById(id)
+id.style.display="block";
+}
+function clocer(id){
+var id=document.getElementById(id)
+id.style.display="none";
+}
+</script>
+<style>
+.online_wb_layer{
+    bottom: 0;
+    cursor: pointer;
+    height: 39px;
+    left: 50%;
+    margin-left: 290px;
+    position: fixed;
+    width: 47px;
+    z-index: 3;
+}
+.online_wb_layer span {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+    display: block;
+    height: 39px;
+    margin-bottom: 2px;
+    text-indent: -9999px;
+    width: 47px;
+}
+.divbox img{
+	border:1px solid #ddd;
+}
+</style>
+<div class="online_wx_layer">	
+	<a class="weixin" href=""><span OnMouseOver="player('any1');" onMouseOut="clocer('any1');" style="cursor:hand;"></span></a>
+	<div class="divbox">
+		<div id="any1" class="moress" OnMouseOver="player('any1');" onMouseOut="clocer('any1');">
+			<p><img src="picture/wx.jpg" width="160" /></p>
+		</div>
+	</div>
+</div>
+<div class="online_wb_layer">		
+	<a class="weibo" href=""><span style="cursor:hand;" onmouseout="clocer('any2');" onmouseover="player('any2');"></span></a>
+	<div class="divbox">
+		<div onmouseout="clocer('any2');" onmouseover="player('any2');" class="moress" id="any2" style="display: none;">
+		  	<p><img src="picture/wb.jpg" width="160" ></p>
+		</div>
+	</div>
+</div>

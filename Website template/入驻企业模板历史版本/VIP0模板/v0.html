@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>许昌魏风文化传播有限公司-许昌文化产业网</title>
+    <meta name="keywords" content="许昌魏风文化传播有限公司,许昌文化产业网,许昌文化,曹魏文化,禹州文化" />
+    <meta name="description" content="许昌魏风文化传播有限公司" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="skin/wcw/css/public.css" />
+    <link rel="stylesheet" href="skin/wcw/css/style.css" />
+    <script type="text/javascript" src="skin/wcw/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="skin/wcw/js/public.js"></script>
+    <script type="text/javascript" src="skin/wcw/js/banner.js"></script>
+    <script type="text/javascript" src="skin/wcw/js/zoompic.js"></script>
+    <script type="text/javascript">//票务在线
+    $(function() {
+        var page = 1;
+        var i = 3; //每版四个图片
+        //向右滚动
+        $(".next1").click(function() { //点击事件
+            var v_wrap = $(this).parents(".scroll1"); // 根据当前点击的元素获取到父元素
+            var v_show = v_wrap.find(".scroll_list"); //找到视频展示的区域
+            var v_cont = v_wrap.find(".box"); //找到视频展示区域的外围区域
+            var v_width = v_cont.width();
+            var len = v_show.find("li").length; //我的视频图片个数
+            var page_count = Math.ceil(len / i); //只要不是整数，就往大的方向取最小的整数
+            if (!v_show.is(":animated")) {
+                if (page == page_count) {
+                    v_show.animate({
+                        left: '0px'
+                    },
+                    "slow");
+                    page = 1;
+                } else {
+                    v_show.animate({
+                        left: '-=' + v_width
+                    },
+                    "slow");
+                    page++;
+                }
+            }
+        });
+        //向左滚动
+        $(".prev1").click(function() { //点击事件
+            var v_wrap = $(this).parents(".scroll1"); // 根据当前点击的元素获取到父元素
+            var v_show = v_wrap.find(".scroll_list"); //找到视频展示的区域
+            var v_cont = v_wrap.find(".box"); //找到视频展示区域的外围区域
+            var v_width = v_cont.width();
+            var len = v_show.find("li").length; //我的视频图片个数
+            var page_count = Math.ceil(len / i); //只要不是整数，就往大的方向取最小的整数
+            if (!v_show.is(":animated")) {
+                if (page == 1) {
+                    v_show.animate({
+                        left: '-=' + v_width * (page_count - 1)
+                    },
+                    "slow");
+                    page = page_count;
+                } else {
+                    v_show.animate({
+                        left: '+=' + v_width
+                    },
+                    "slow");
+                    page--;
+                }
+            }
+        });
+    });
+    </script>
+    <script language="javascript"> //js脚本标注
+    function qxbz()
+    {
+    alert("此项模块功能权限未开通，如有需求请联系0374-");//在页面上弹出上联
+    }
+</script> 
+</head>
+<body>
+<!-- 头部 -->
+<div class="header wl relative">
+    <div class="g-wrap">
+        <a class="wt-logo fl" href="/index/"></a>
+        <a class="cy-logo" href="/"><span style="background-image:url(RZGS/xiandaichuanmei/XDCM001/logo.png)"></span></a>
+        <ul class="nav absolute" id="nav">
+            <li class="home"><a href=""><span>首 页</span></a></li>
+            <li><a onClick="qxbz();"><span>公司动态</span></a></li>
+            <li><a onClick="qxbz();"><span>公司产品</span></a></li>
+            <li><a onClick="qxbz();"><span>商城店铺</span></a></li>
+            <li><a href="" onClick="qxbz();"><span>公司官网</span></a></li>
+        </ul>
+    </div>
+    <div class="blank-l"></div>
+</div>
+<!-- /头部 -->
+<!-- 幻灯片 -->
+<div id="banner" class="banner-content ban-wlw">
+    <ul class="pics">
+        <li class="b1" style="background-image: url(RZGS/xiandaichuanmei/XDCM001/banner1.jpg);"><a href="/"></a></li>
+    </ul>
+    <div class="btns">
+        <a class="prev" href="javascript:void(0);"><span class="off"></span><span class="on"></span></a>
+        <a class="next" href="javascript:void(0);"><span class="off"></span><span class="on"></span></a>
+    </div>
+    <div class="g-wrap">
+        <ul class="idxs">
+            <li></li><li></li><li></li><li></li><li></li>
+        </ul>
+    </div>
+</div>
+<!-- /幻灯片 -->
+<!-- 简介 -->
+<div class="profile clearfix">
+    <div class="g-wrap">
+        <div class="title tc margin-b30"><img src="img/t1.png" /></div>
+        <div class="video1 text-center">
+            <div>
+                <div style="text-align:center;"><img src="img/lx.jpg" width="200" /></div>
+                <p style="font-size:18px;text-align:center;line-height:26px;">
+                    <br />公司地址：延安市宝塔区枣园风情街C座
+                    <br />TEL:0911-8051010
+                    <br />FAX:0911-0855678
+                    <br />Email：yawt@yanwentou.com
+                    <br />
+                </p>
+            </div>
+        </div>
+        <div class="p-text">
+            <h1>延安文化产业投资有限公司</h1>
+            <div>
+                <p style="text-indent:2em;">延安文化产业投资有限公司是中共延安市委、延安市人民政府和陕西文化产业投资控股(集团)有限公司为深入贯彻落实十七届六中全会会议精神，抢抓“文化产业兴国”的历史机遇，传承和弘扬中华优秀文化而打造的红色旅游发展实施平台。公司正式成立于2011年10月25日，由陕西文化产业投资控股（集团）有限公司出资3亿元，延安市鼎源投资有限责任公司出资2亿元共同成立，注册资本5亿元，经营范围包括文化影视、文化演艺、文化园区、广告传媒、特色文化产业项目投资及文化园区基础设施建设等，是目前延安地区最大的文化产业投资企业。</p>
+                <p style="text-indent:2em;">延安文投在“文化强省”和“文化引领、旅游带动”的发展战略指引下，依托延安丰富的红色文化资源、民俗文化资源，通过大项目带动，大资源整合，大市场运作的方式将延安富集的红色文化资源，转化成市场资源、品牌资源和产业资源，积极参与延安文化产业项目实施，逐步发展成为主营业务涵盖文化影视、文化演艺、文化园区、广告传媒、特色文化产业项目投资及文化园区基础设施建设等多个领域的文化急先锋和市场排头兵。</p>
+                <p style="text-indent:2em;">公司自成立以来以努力搭建延安市和陕文投集团深化文化体制改革，着力壮大文化产业特别是红色文化旅游产业支柱地位市场平台为己任，以做大做强延安文化产业，打造中国红色文化第一极为发展愿景，坚持多元化投资、多元化建设、多元化发展的总体思路，取得了社会效益经济效益双丰收。目前已完成大型人文纪录片《我们在延安》、大型实景演出《舞动延安》、大型红色演出《延安颂》的投资出品。与此同时，延安文投还在强力推进枣园广场、枣园公园、中国革命文艺家博物院等三大园区建设，涉及对红色文化、革命文艺历史、都市休闲文化等几个文化类型的把握、提炼、酝酿以及现代化表现。目前各园区项目都已陆续开工建设，2015年10月1日，枣园广场正式浓情开园。</p>
+            </div>
+            <div class="more"><a href="/">more>>></a></div>
+        </div>
+    </div>
+</div>
+<!-- /简介 -->
+<!-- 产品 -->
+<div class="photo-news ys-part2 clearfix">
+    <div class="g-wrap">
+        <div class="title tc"><img src="img/t2.png" /></div>
+        <div id="focus_Box">
+            <span class="prev">&nbsp;</span>
+            <span class="next">&nbsp;</span>
+            <ul>
+                <li>
+                    <a href="/"><img src="picture/56a6d01e92e98.jpg" width="340" height="205";></a>
+                    <p>
+                        <span style="font-size:18px; margin:5px 5px 0 20px;"><a href="/">延安1938街区十大新店迎新春</a></span>
+                        <span style="margin:5px 15px 0 20px; height:70px; line-height:20px; text-index:2em;">岁末年初，很多人选择来到枣园广场·延安1938街区，用最特别的方式迎接新年的到来。街区内人流如织，熙熙攘攘，络绎不绝。正宗陕北美食满足大家挑剔的味蕾，在这年代感十足的氛围里吃饭，还真有种穿越回19...</span>
+                        <span style=" height:22px; line-height:22px; margin-left:20px;">2016-01-26</span>
+                    </p>
+                </li>
+                <li>
+                    <a href="/"><img src="/skin/wcw/picture/56a6d01e92e98.jpg" width="340" height="205";></a>
+                    <p>
+                        <span style="font-size:18px; margin:5px 5px 0 20px;"><a href="/">延安1938街区十大新店迎新春</a></span>
+                        <span style="margin:5px 15px 0 20px; height:70px; line-height:20px; text-index:2em;">岁末年初，很多人选择来到枣园广场·延安1938街区，用最特别的方式迎接新年的到来。街区内人流如织，熙熙攘攘，络绎不绝。正宗陕北美食满足大家挑剔的味蕾，在这年代感十足的氛围里吃饭，还真有种穿越回19...</span>
+                        <span style=" height:22px; line-height:22px; margin-left:20px;">2016-01-26</span>
+                    </p>
+                </li>
+                <li>
+                    <a href="/"><img src="/skin/wcw/picture/56a6d01e92e98.jpg" width="340" height="205";></a>
+                    <p>
+                        <span style="font-size:18px; margin:5px 5px 0 20px;"><a href="/">延安1938街区十大新店迎新春</a></span>
+                        <span style="margin:5px 15px 0 20px; height:70px; line-height:20px; text-index:2em;">岁末年初，很多人选择来到枣园广场·延安1938街区，用最特别的方式迎接新年的到来。街区内人流如织，熙熙攘攘，络绎不绝。正宗陕北美食满足大家挑剔的味蕾，在这年代感十足的氛围里吃饭，还真有种穿越回19...</span>
+                        <span style=" height:22px; line-height:22px; margin-left:20px;">2016-01-26</span>
+                    </p>
+                </li>
+                <li>
+                    <a href="/"><img src="/skin/wcw/picture/56a6d01e92e98.jpg" width="340" height="205";></a>
+                    <p>
+                        <span style="font-size:18px; margin:5px 5px 0 20px;"><a href="/">延安1938街区十大新店迎新春</a></span>
+                        <span style="margin:5px 15px 0 20px; height:70px; line-height:20px; text-index:2em;">岁末年初，很多人选择来到枣园广场·延安1938街区，用最特别的方式迎接新年的到来。街区内人流如织，熙熙攘攘，络绎不绝。正宗陕北美食满足大家挑剔的味蕾，在这年代感十足的氛围里吃饭，还真有种穿越回19...</span>
+                        <span style=" height:22px; line-height:22px; margin-left:20px;">2016-01-26</span>
+                    </p>
+                </li>
+                <li>
+                    <a href="/"><img src="/skin/wcw/picture/56a6d01e92e98.jpg" width="340" height="205";></a>
+                    <p>
+                        <span style="font-size:18px; margin:5px 5px 0 20px;"><a href="/">延安1938街区十大新店迎新春</a></span>
+                        <span style="margin:5px 15px 0 20px; height:70px; line-height:20px; text-index:2em;">岁末年初，很多人选择来到枣园广场·延安1938街区，用最特别的方式迎接新年的到来。街区内人流如织，熙熙攘攘，络绎不绝。正宗陕北美食满足大家挑剔的味蕾，在这年代感十足的氛围里吃饭，还真有种穿越回19...</span>
+                        <span style=" height:22px; line-height:22px; margin-left:20px;">2016-01-26</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="mores tc"><a href="/">点击查看更多>></a></div>
+    </div>
+</div>
+<!-- /产品 -->
+
+<!-- 底部 -->
+<div id="footer" class="footerwarp">
+    <div class="g-wrap">
+        <div class="copyright">友情链接：
+            <a href="/index/" target="_blank">友情链接1</a>|
+            <a href="/index/" target="_blank">友情链接2</a>|
+            <a href="/index/" target="_blank">友情链接3</a>|
+            <a href="/index/" target="_blank">友情链接4</a>|
+            <a href="/index/" target="_blank">友情链接5</a>|
+            <a href="/index/" target="_blank">友情链接6</a>
+            <br/>Copyright © 许昌市文化投资有限责任公司 主办：许昌市文化投资有限责任公司 豫ICP备：22335851号
+        </div>
+        <div class="ft-menu">
+            <a class="map" href="/index/"></a>
+            <a class="email" href="/index/" target="_blank"></a>
+            <a class="sina" href="/index/"></a>
+            <a class="weixin" href="/index/"></a>
+        </div>	
+        <div class="q-entry">
+            <a href="/index/" target="_blank">管理登录</a>|
+            <a href="/index/" target="_blank">法律声明</a>|
+            <a href="/index/" target="_blank">网站导航</a>
+            <br/>
+            <a href="http://www.henanwanxun.com/" target="_blank">制作：河南万讯网络科技有限公司</a></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/lw-service.js"></script>
+<script type="text/javascript">
+    function player(id){
+        var id=document.getElementById(id)
+        id.style.display="block";
+    }
+    function clocer(id){
+        var id=document.getElementById(id)
+        id.style.display="none";
+    }
+</script>
+<style>
+.online_wb_layer{bottom:0;cursor:pointer;height:39px;left:50%;margin-left:290px;position:fixed;width:47px;z-index:3;}
+.online_wb_layer span {background:rgba(0,0,0,0) none repeat scroll 0 center;display:block;height:39px;margin-bottom:2px;text-indent:-9999px;width:47px;}
+.divbox img{border:1px solid #ddd;}
+</style>
+<div class="online_wx_layer">	
+    <a class="weixin" href=""><span OnMouseOver="player('any1');" onmouseout="clocer('any1');" style="cursor:hand;"></span></a>
+    <div class="divbox">
+        <div id="any1" class="moress" OnMouseOver="player('any1');" onmouseout="clocer('any1');">
+            <p><img src="/skin/wcw/img/wx.jpg" width="160" /></p>
+        </div>
+    </div>
+</div>
+<div class="online_wb_layer">		
+    <a class="weibo" href=""><span style="cursor:hand;" onmouseout="clocer('any2');" onmouseover="player('any2');"></span></a>
+    <div class="divbox">
+        <div onmouseout="clocer('any2');" onmouseover="player('any2');" class="moress" id="any2" style="display: none;">
+            <p><img src="/skin/wcw/img/wb.jpg" width="160" ></p>
+        </div>
+    </div>
+</div>
+<!-- /底部 -->
+</body>	
+</html>
