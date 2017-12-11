@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>许昌市文化产业网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    
+    <link rel="stylesheet" rev="stylesheet" href="css/mb-base.css" />
+    <link rel="stylesheet" rev="stylesheet" href="css/mb-index.css" />
+    <link rel="stylesheet" rev="stylesheet" href="css/mb-common.css" />
+    <link rel="stylesheet" rev="stylesheet" href="css/index2017-mb.css" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/wap_common_2015.js"></script>
+    <script>window.PointerEvent = void 0</script>
+    <script>var site_remen = "<a href='/' target=_blank>文化资讯</a><a href='/' target=_blank><font color='#FF0033'>文创产品</font></a> ";</script>
+    <!--必须在现有的script外-->
+    <script>var isapp = "0"; //在现有的js内:是否app平台
+        var YDB;
+        if (isapp === '1') {
+            YDB = new YDBOBJ();
+        }
+    </script>
+</head>
+
+<body>
+<div id="pageMain" class="page_srcoll page-current">
+    <!-- 页头 开始 -->
+    <div class="header">
+        <a href="javascript:void(0);" onClick="return window.history.go(-1);" class="back">返回</a>
+        <div class="search" id="search_ico" onClick="showNewPage('搜索',searchHtml,newPageSearch);" style="display:none;">搜索</div>
+        <a href="/" class="my">首页</a>
+        <div class="type" id="nav_ico">导航</div>
+        <span id="ipageTitle" style="display:none;">许昌市文化产业网</span>
+        <div class="nav_APP" id="nav_APP">
+            <ul class="clearfix">
+            <li><a href="javascript:void(0);">网站首页<s class="s" style="background-image:url(img/nav/1.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化资讯<s class="s" style="background-image:url(img/nav/2.png);"></s></a></li>
+            <li><a href="javascript:void(0);">通知公告<s class="s" style="background-image:url(img/nav/3.png);"></s></a></li>
+            <li><a href="javascript:void(0);">政策文件<s class="s" style="background-image:url(img/nav/4.png);"></s></a></li>
+            <li><a href="javascript:void(0);">资金申报<s class="s" style="background-image:url(img/nav/5.png);"></s></a></li>
+            <li><a href="javascript:void(0);">美好商城<s class="s" style="background-image:url(img/nav/13.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化企业<s class="s" style="background-image:url(img/nav/9.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化名人<s class="s" style="background-image:url(img/nav/10.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化项目<s class="s" style="background-image:url(img/nav/11.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文创作品<s class="s" style="background-image:url(img/nav/12.png);"></s></a></li>
+            <li><a href="javascript:void(0);">企业服务<s class="s" style="background-image:url(img/nav/14.png);"></s></a></li>
+            <li><a href="javascript:void(0);">数据检索<s class="s" style="background-image:url(img/nav/15.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文创大赛<s class="s" style="background-image:url(img/nav/16.png);"></s></a></li>
+            <li><a href="javascript:void(0);">产业动态<s class="s" style="background-image:url(img/nav/6.png);"></s></a></li>
+            <li><a href="javascript:void(0);">企业动态<s class="s" style="background-image:url(img/nav/7.png);"></s></a></li>
+            <li><a href="javascript:void(0);">政策解读<s class="s" style="background-image:url(img/nav/8.png);"></s></a></li> 
+            </ul>
+            <span class="arrow-up"></span>
+        </div>
+    </div>
+    <!-- 页头 结束 -->
+    
+    <!-- 首页内容开始 -->
+    <div class="content wrapper">
+        <!-- 中部导航开始 -->
+        <ul id="nav_APP_data" style="display:none;">
+            <li><a href="javascript:void(0);">网站首页<s class="s" style="background-image:url(img/nav/1.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化资讯<s class="s" style="background-image:url(img/nav/2.png);"></s></a></li>
+            <li><a href="javascript:void(0);">通知公告<s class="s" style="background-image:url(img/nav/3.png);"></s></a></li>
+            <li><a href="javascript:void(0);">政策文件<s class="s" style="background-image:url(img/nav/4.png);"></s></a></li>
+            <li><a href="javascript:void(0);">资金申报<s class="s" style="background-image:url(img/nav/5.png);"></s></a></li>
+            <li><a href="javascript:void(0);">产业动态<s class="s" style="background-image:url(img/nav/6.png);"></s></a></li>
+            <li><a href="javascript:void(0);">企业动态<s class="s" style="background-image:url(img/nav/7.png);"></s></a></li>
+            <li><a href="javascript:void(0);">政策解读<s class="s" style="background-image:url(img/nav/8.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化企业<s class="s" style="background-image:url(img/nav/9.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化名人<s class="s" style="background-image:url(img/nav/10.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化项目<s class="s" style="background-image:url(img/nav/11.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文创产品<s class="s" style="background-image:url(img/nav/12.png);"></s></a></li>
+            <li><a href="javascript:void(0);">美好商城<s class="s" style="background-image:url(img/nav/13.png);"></s></a></li>
+            <li><a href="javascript:void(0);">企业服务<s class="s" style="background-image:url(img/nav/14.png);"></s></a></li>
+            <li><a href="javascript:void(0);">数据检索<s class="s" style="background-image:url(img/nav/15.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文创大赛<s class="s" style="background-image:url(img/nav/16.png);"></s></a></li>
+        </ul>
+        <div class="viewport">
+            <div id="nav_Node" class="nav_APP showNavApp"><div id="scroller" class="clearfix"></div></div>
+            <div id="indicator2"><div id="dotty"></div></div>
+        </div>
+        <!-- 中部导航结束 -->
+        <!-- 信息资讯开始 -->
+        <div class="module module_1" id="tab_01">
+            <div class="select_01 select_index tab-hd">
+                <ul>
+                    <li class="item current"><a href="javascript:void(0);" class="link_1">文化资讯</a></li>
+                </ul>
+            </div>
+            <div class="bd pic_1_list tab-cont">
+                <ul>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                </ul>
+                <a href="javascript:void(0);" class="btn">查看更多</a>
+            </div>
+        </div>
+        <!-- 信息资讯结束 -->
+        <!-- 广告开始 -->
+        <div class="zdy_html2015"><div class="zd_html"><a href="/"><img src="img/gg1.jpg" alt="" /></a></div></div>
+        <!-- 广告结束 -->
+        <!-- 商家入驻开始 -->
+        <div class="index2017_bottom">
+            <ul class="clearfix">
+                <li class="li_01"><a href="/"><s class="s"></s><p class="big">文化企业</p></a></li>
+                <li class="li_02"><a href="/"><s class="s"></s><p class="big">智库名人</p></a></li>
+                <li class="li_03"><a href="/"><s class="s"></s><p class="big">文化项目</p></a></li>
+                <li class="li_04"><a href="/"><s class="s"></s><p class="big">文创作品</p></a></li>
+            </ul>
+        </div>
+        <!-- 商家入驻开始 -->
+        <!-- 商家入驻开始 -->
+        <div class="bannerSJ clearfix">
+            <div class="left"><a href="/"><b>项目申请</b>项目申请,项目申请<s class="s"></s></a></div>
+            <div class="right"><a href="/"><b>企业入驻</b>企业入驻企业入驻<s class="s"></s></a></div>
+        </div>
+        <!-- 商家入驻结束 -->
+    </div>
+    <!-- 首页内容结束 -->
+    <!-- 底部开始 -->
+    <div class="foot_link" id="foot_link">
+        <ul class="link">
+            <li><a href="/">首页</a></li>
+            <li><a href="/">电脑版</a></li>
+            <li><a href="/">客户端</a></li>
+            <li><a href="/">反馈留言</a></li>
+            <li class="po_re"><a href="javascript:void(0);" id="shangjiaSelect" data-isShow="0">工作平台</a>
+                <div class="po" id="shangjiaSelectPo">
+                    <p><a href="javascript:void(0);">美好商城</a></p>
+                    <p><a href="javascript:void(0);">许昌佰事通</a></p>
+                    <p><a href="javascript:void(0);">3平台</a></p>
+                    <p><a href="javascript:void(0);">4平台</a></p>
+                </div>
+            </li>
+        </ul>
+		主办单位：许昌市文化广电新闻出版局<br>
+        承办单位：许昌市文化投资有限责任公司<br>
+        Copyright @ 2016-2017 许昌市文化产业网
+    </div>
+    <!-- 底部结束 -->
+</div>
+
+
+<!-- 搜索页开始 -->
+<div class="windowIframe" id="windowIframe" data-loaded="0">
+    <div class="header"><a href="javascript:;" class="back close">返回</a><span id="windowIframeTitle"></span></div>
+    <div class="body" id="windowIframeBody"></div>
+</div>
+<div id="l-map" style="display:none;"></div>
+<input type="hidden" value="" data-chrname="" data-styleid="" data-chrpic="" data-jifennun="0" data-daijinnum="0" data-isadmin="0" data-isfabukill="0" data-isrepiskill="0" data-isrepsaveiskill="0" id="LoginUserInfo" />
+
+<!-- 搜索页结束 --> 
+<!-- 微信关注开始 --> 
+<span class=""></span>
+<div class="mask" id="mask" style="display:none;"></div>
+<div id="weixinX4" data-isloaded="0" style="display:none;">
+	<span class="tit clearfix"><span class="close">关闭</span>微信公众号：<span class="number">nihao163k</span></span>
+	<img src="picture/201507100907139465099.jpg" id="weixinImg" alt="">微信中长按识别
+</div>
+<div class="weixin_ico_fixed" id="weixin_ico_fixed"></div>
+<!-- 微信关注结束 -->
+<script>
+if(isapp === '1'){
+	YDB.SetDragRefresh(0);
+}
+window['siteUrl'] = 'http://wap.xcwh0374.com/';
+document.addEventListener('DOMContentLoaded',function(){
+	$('#nav_ico').click(function(e){
+		e.preventDefault();
+		$('#nav_APP').fadeToggle('fast');
+	});
+	IDC2.footWorker();
+	IDC2.getLoginUserInfo('http://wap.xcwh0374.com/','许昌市文化产业网','10');
+	if(!window['ipageTitle']){
+		$('#ipageTitle').show();
+	}else{
+		$('#ipageTitle').html(window['ipageTitleTxt']).show();
+	}
+},false);
+</script>
+<script src="js/iscroll.js"></script>
+<script src="js/json2.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/index_m2017.js"></script>
+<script src="js/jweixin-1.0.0.js"></script>
+<script src="js/nativeshare.js"></script>
+
+
+
+
+<script>
+var nowdomain ="http://wap.xcwh0374.com/";
+window['siteUrl'] = 'http://wap.xcwh0374.com/';
+window['Default_tplPath'] = 'http://wap.xcwh0374.com/';
+var shareImg = '';
+var filepath1 = 'http://wap.xcwh0374.com/';
+if(typeof filepath1 !== 'undefined'){shareImg = nowdomain + filepath1.replace('../','');}
+var shareLink = 'http://wap.xcwh0374.com/';
+var shareTitle = 'http://wap.xcwh0374.com/';
+var shareContent = 'http://wap.xcwh0374.com/';
+var shareconfig = {
+	url:shareLink,
+	title:shareTitle,
+	desc:shareContent,
+	img:shareImg,
+	img_title:shareTitle,
+	from:'http://wap.xcwh0374.com/'
+};
+document.addEventListener('DOMContentLoaded',function(){
+	new nativeShare('nativeShare',shareconfig);
+	if(!!is_weixn()){set_i_weixinapp_share(shareTitle,shareContent,shareImg,shareLink);}
+	loaded();
+	$('#txtScrollNode').loopScrollTxt();
+	$('.header .back').hide();
+	$('#nav_ico').hide();
+	$('#search_ico').show();
+	var list = $('#content').find('.cell');
+	if(list.length > 0){
+		$('#slide').show();
+		var txt = '';
+		$('#content').find('.cell').each(function(i){
+			if(i === 0){
+				txt += '<li class="active">1</li>';
+			}else{
+				txt += '<li>'+(i+1)+'</li>';
+			}
+		});
+		$('#indicator').html(txt);
+		var w_w = $(window).width();
+		setTimeout(function(){new C_Scroll({container:'slide',content:'content',ct:'indicator',size:w_w,intervalTime:5000,lazyIMG:!!0});},20);
+	}
+	IDC2.closeGG('top_gg');
+	IDC2.tabADS($('#tab_01'));
+	$('#good_list').css({'width':Math.ceil(120*$('#good_list').find('li').length)+'px'});
+	$('#companyList').css({'width':Math.ceil(100*$('#companyList').find('li').length)+'px'});
+	var myClock = iClock.createClock();
+	myClock.makeClock(); 
+	/*var companyList = $('#companyList').find('img');
+	var oneWidth = parseInt(companyList.eq(0).width()*2/3);
+	companyList.css({'height':oneWidth+'px'});*/
+},false);
+function showWeixin(){
+	var w_h = $(window).height();
+	var weixinX4 = $('#weixinX4');
+	if(!weixinX4.attr('data-isloaded') !== '1'){
+		weixinX4.css({'top':(w_h-weixinX4.height()-20)/2+'px'});
+		weixinX4.attr('data-isloaded','1');
+		$('#mask').click(function(e){
+			hideWeixin();
+		});
+		weixinX4.find('.close').click(function(e){
+			hideWeixin();
+		});
+	}
+	weixinX4.fadeIn();
+	$('#mask').fadeIn();
+	$('#p_main').addClass('filter_blur');
+	return false;
+}
+//showWeixin();
+$('#weixin_ico_fixed').tap(function(){
+	showWeixin();
+});
+function hideWeixin(){
+	$('#weixinX4').fadeOut();
+	$('#mask').fadeOut();
+	$('#p_main').removeClass('filter_blur');
+}
+</script>
+</body>
+</html>

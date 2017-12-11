@@ -1,0 +1,547 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>许昌市文化产业网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    
+    <link rel="stylesheet" rev="stylesheet" href="css/mb-base.css" />
+    <link rel="stylesheet" rev="stylesheet" href="css/mb-index.css" />
+    <link rel="stylesheet" rev="stylesheet" href="css/mb-common.css" />
+    <link rel="stylesheet" rev="stylesheet" href="css/index2017-mb.css" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/wap_common_2015.js"></script>
+    <script>window.PointerEvent = void 0</script>
+    <script>var site_remen = "<a href='/' target=_blank>文化资讯</a><a href='/' target=_blank><font color='#FF0033'>文创产品</font></a> ";</script>
+    <!--必须在现有的script外-->
+    <script>var isapp = "0"; //在现有的js内:是否app平台
+        var YDB;
+        if (isapp === '1') {
+            YDB = new YDBOBJ();
+        }
+    </script>
+</head>
+
+<body>
+<div id="pageMain" class="page_srcoll page-current">
+    <!-- 页头 开始 -->
+    <div class="header">
+        <a href="javascript:void(0);" onClick="return window.history.go(-1);" class="back">返回</a>
+        <div class="search" id="search_ico" onClick="showNewPage('搜索',searchHtml,newPageSearch);" style="display:none;">搜索</div>
+        <a href="/" class="my">首页</a>
+        <div class="type" id="nav_ico">导航</div>
+        <span id="ipageTitle" style="display:none;">许昌市文化产业网</span>
+        <div class="nav_APP" id="nav_APP">
+            <ul class="clearfix">
+            <li><a href="javascript:void(0);">网站首页<s class="s" style="background-image:url(img/nav/1.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化资讯<s class="s" style="background-image:url(img/nav/2.png);"></s></a></li>
+            <li><a href="javascript:void(0);">通知公告<s class="s" style="background-image:url(img/nav/3.png);"></s></a></li>
+            <li><a href="javascript:void(0);">政策文件<s class="s" style="background-image:url(img/nav/4.png);"></s></a></li>
+            <li><a href="javascript:void(0);">资金申报<s class="s" style="background-image:url(img/nav/5.png);"></s></a></li>
+            <li><a href="javascript:void(0);">美好商城<s class="s" style="background-image:url(img/nav/13.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化企业<s class="s" style="background-image:url(img/nav/9.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化名人<s class="s" style="background-image:url(img/nav/10.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化项目<s class="s" style="background-image:url(img/nav/11.png);"></s></a></li>
+            <li><a href="javascript:void(0);">美好商城<s class="s" style="background-image:url(img/nav/13.png);"></s></a></li>
+            <li><a href="javascript:void(0);">企业服务<s class="s" style="background-image:url(img/nav/14.png);"></s></a></li>
+            <li><a href="javascript:void(0);">数据检索<s class="s" style="background-image:url(img/nav/15.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文创大赛<s class="s" style="background-image:url(img/nav/16.png);"></s></a></li>
+            <li><a href="javascript:void(0);">产业动态<s class="s" style="background-image:url(img/nav/6.png);"></s></a></li>
+            <li><a href="javascript:void(0);">企业动态<s class="s" style="background-image:url(img/nav/7.png);"></s></a></li>
+            <li><a href="javascript:void(0);">政策解读<s class="s" style="background-image:url(img/nav/8.png);"></s></a></li> 
+            </ul>
+            <span class="arrow-up"></span>
+        </div>
+    </div>
+    <!-- 页头 结束 -->
+    <!-- 首页内容开始 -->
+    <div class="content wrapper">
+        <!-- 幻灯片开始 -->
+        <div id="slide" class="clearfix" style="display:none;">
+            <div id="content">
+                <div class="cell"><a href="javascript:void(0);"><img src="img/1.png" alt=""></a><span class="title">wap首页幻灯广告一</span></div>
+                <div class="cell"><a href="javascript:void(0);"><img src="img/2.png" alt=""></a><span class="title">wap首页幻灯广告二</span></div>
+                <div class="cell"><a href="javascript:void(0);"><img src="img/3.png" alt=""></a><span class="title">wap首页幻灯广告三</span></div>
+            </div>
+            <ul id="indicator"></ul>
+        </div>
+        <span class="prev" id="slide_prev" style="display:none">上一张</span><span class="next" id="slide_next" style="display:none">下一张</span>
+        <!-- 幻灯片结束 -->
+        <!-- 通知开始 -->
+        <div class="news">
+            <div class="inner1" id="txtScrollNode">
+                <ul class="inner2">
+                    <li><a href="/" style="color:;">热烈祝贺许昌市文化产业网上线！</a></li>
+                    <li><a href="/" style="color:;">热烈祝贺许昌市文化产业网上线！</a></li>
+                    <li><a href="/" style="color:;">热烈祝贺许昌市文化产业网上线！</a></li>
+                    <li><a href="/" style="color:;">热烈祝贺许昌市文化产业网上线！</a></li>
+                </ul>
+            </div>
+            <a href="/"><s class="s"></s></a>
+        </div>
+        <!-- 通知结束 -->
+        <!-- 中部导航开始 -->
+        <ul id="nav_APP_data" style="display:none;">
+            <li><a href="javascript:void(0);">网站首页<s class="s" style="background-image:url(img/nav/1.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化资讯<s class="s" style="background-image:url(img/nav/2.png);"></s></a></li>
+            <li><a href="javascript:void(0);">通知公告<s class="s" style="background-image:url(img/nav/3.png);"></s></a></li>
+            <li><a href="javascript:void(0);">政策文件<s class="s" style="background-image:url(img/nav/4.png);"></s></a></li>
+            <li><a href="javascript:void(0);">资金申报<s class="s" style="background-image:url(img/nav/5.png);"></s></a></li>
+            <li><a href="javascript:void(0);">美好商城<s class="s" style="background-image:url(img/nav/13.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化企业<s class="s" style="background-image:url(img/nav/9.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化名人<s class="s" style="background-image:url(img/nav/10.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文化项目<s class="s" style="background-image:url(img/nav/11.png);"></s></a></li>
+            <li><a href="javascript:void(0);">美好商城<s class="s" style="background-image:url(img/nav/13.png);"></s></a></li>
+            <li><a href="javascript:void(0);">企业服务<s class="s" style="background-image:url(img/nav/14.png);"></s></a></li>
+            <li><a href="javascript:void(0);">数据检索<s class="s" style="background-image:url(img/nav/15.png);"></s></a></li>
+            <li><a href="javascript:void(0);">文创大赛<s class="s" style="background-image:url(img/nav/16.png);"></s></a></li>
+            <li><a href="javascript:void(0);">产业动态<s class="s" style="background-image:url(img/nav/6.png);"></s></a></li>
+            <li><a href="javascript:void(0);">企业动态<s class="s" style="background-image:url(img/nav/7.png);"></s></a></li>
+            <li><a href="javascript:void(0);">政策解读<s class="s" style="background-image:url(img/nav/8.png);"></s></a></li>            
+        </ul>
+        <div class="viewport">
+            <div id="nav_Node" class="nav_APP showNavApp"><div id="scroller" class="clearfix"></div></div>
+            <div id="indicator2"><div id="dotty"></div></div>
+        </div>
+        <!-- 中部导航结束 -->
+        <!-- 信息资讯开始 -->
+        <div class="module module_1" id="tab_01">
+            <div class="select_01 select_index tab-hd">
+                <ul>
+                    <li class="item current"><a href="javascript:void(0);" class="link_1">文化资讯</a></li>
+                    <li class="item"><a href="javascript:void(0);" class="link_2">通知公告</a></li>
+                    <li class="item"><a href="javascript:void(0);" class="link_3">政策文件</a></li>
+                </ul>
+            </div>
+            <div class="bd pic_1_list tab-cont">
+                <ul>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        <img src="picture/1.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>文化资讯文化资讯文化资讯文化资讯文化资讯文化资讯</h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                </ul>
+                <a href="javascript:void(0);" class="btn">查看更多</a>
+            </div>
+            <div class="bd pic_1_list tab-cont">
+                <ul>
+                    <li><a href="/">
+                        <img src="picture/2.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>通知公告通知公告通知公告通知公告通知公告通知公告<span class="ico_jh display0">精华</span></h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li><a href="/">
+                        <img src="picture/2.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>通知公告通知公告通知公告通知公告通知公告通知公告<span class="ico_jh display0">精华</span></h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li><a href="/">
+                        <img src="picture/2.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>通知公告通知公告通知公告通知公告通知公告通知公告<span class="ico_jh display0">精华</span></h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li><a href="/">
+                        <img src="picture/2.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>通知公告通知公告通知公告通知公告通知公告通知公告<span class="ico_jh display1">精华</span></h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li><a href="/">
+                        <img src="picture/2.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>通知公告通知公告通知公告通知公告通知公告通知公告<span class="ico_jh display1">精华</span></h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                </ul>
+                <a href="javascript:void(0);" class="btn">查看更多</a>
+            </div>
+            <div class="bd pic_1_list tab-cont">
+                <ul>
+                    <li><a href="/">
+                        <img src="picture/3.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>通知公告通知公告通知公告通知公告通知公告通知公告<span class="ico_jh display0">精华</span></h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li><a href="/">
+                        <img src="picture/3.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>通知公告通知公告通知公告通知公告通知公告通知公告<span class="ico_jh display0">精华</span></h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li><a href="/">
+                        <img src="picture/3.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>通知公告通知公告通知公告通知公告通知公告通知公告<span class="ico_jh display0">精华</span></h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li><a href="/">
+                        <img src="picture/3.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>通知公告通知公告通知公告通知公告通知公告通知公告<span class="ico_jh display1">精华</span></h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                    <li><a href="/">
+                        <img src="picture/3.png" class="pic" onerror="this.parentNode.parentNode.className='nopic';" alt="" />
+                        <h3>通知公告通知公告通知公告通知公告通知公告通知公告<span class="ico_jh display1">精华</span></h3>
+                        <p class="p_l_r clearfix"><span class="left">06-20 12:00</span><span class="right">阅读：897</span></p></a>
+                    </li>
+                </ul>
+                <a href="javascript:void(0);" class="btn">查看更多</a>
+            </div>
+        </div>
+        <!-- 信息资讯结束 -->
+        <!-- 广告开始 -->
+        <div class="zdy_html2015"><div class="zd_html"><a href="/"><img src="img/gg1.jpg" alt="" /></a></div></div>
+        <!-- 广告结束 -->
+        <!-- 商家入驻开始 -->
+        <div class="index2017_bottom">
+            <ul class="clearfix">
+                <li class="li_01"><a href="/"><s class="s"></s><p class="big">文化企业</p></a></li>
+                <li class="li_02"><a href="/"><s class="s"></s><p class="big">智库名人</p></a></li>
+                <li class="li_03"><a href="/"><s class="s"></s><p class="big">文化项目</p></a></li>
+                <li class="li_04"><a href="/"><s class="s"></s><p class="big">文创作品</p></a></li>
+            </ul>
+        </div>
+        <!-- 商家入驻开始 -->
+        <!-- 商家入驻开始 -->
+        <!--<div class="bds_wxfriend">
+            <div class="left"><a href="/"><b>项目申请</b>项目申请,项目申请<s class="s"></s></a></div>
+            <div class="right"><a href="/"><b>企业入驻</b>企业入驻企业入驻<s class="s"></s></a></div>
+        </div>-->
+        <!-- 商家入驻结束 -->
+        <!-- 推荐企业 -->
+        <div class="module module_3">
+            <div class="hd clearfix">
+                <span class="tit"><s class="s"></s>文化企业</span><a class="more" href="javascript:void(0);">更多</a>
+            </div>
+        </div>
+        <div class="pic_4_list">
+            <ul class="clearfix" id="companyList">
+                <li><a href="/"><div class="pic"><img src="/" alt="" /></div><h3>许昌市文化投资有限责任公司</h3></a></li>
+                <li><a href="/"><div class="pic"><img src="/" alt="" /></div><h3>许昌市文化投资有限责任公司</h3></a></li>
+                <li><a href="/"><div class="pic"><img src="/" alt="" /></div><h3>许昌市文化投资有限责任公司</h3></a></li>
+                <li><a href="/"><div class="pic"><img src="/" alt="" /></div><h3>许昌市文化投资有限责任公司</h3></a></li>
+                <li><a href="/"><div class="pic"><img src="/" alt="" /></div><h3>许昌市文化投资有限责任公司</h3></a></li>
+                <li><a href="/"><div class="pic"><img src="/" alt="" /></div><h3>许昌市文化投资有限责任公司</h3></a></li>
+                <li><a href="/"><div class="pic"><img src="/" alt="" /></div><h3>许昌市文化投资有限责任公司</h3></a></li>
+                <li><a href="/"><div class="pic"><img src="/" alt="" /></div><h3>许昌市文化投资有限责任公司</h3></a></li>
+                <li><a href="/"><div class="pic"><img src="/" alt="" /></div><h3>许昌市文化投资有限责任公司</h3></a></li>
+                <li><a href="/"><div class="pic"><img src="/" alt="" /></div><h3>许昌市文化投资有限责任公司</h3></a></li>
+            </ul>
+        </div>
+      <!-- 推荐企业结束 -->
+        <!-- 文化名人 -->
+        <div class="module module_3">
+            <div id="tab_03">
+                <div class="hd clearfix">
+                    <span class="tit"><s class="s"></s>文化名人</span><a class="more" href="javascript:void(0);">更多</a>
+                </div>	
+                <div class="bd good_list">
+                    <ul class="clearfix" id="good_list">
+                        <li><a href="javascript:void(0);"><img src="picture/2016083114142011373371.png" alt="" />
+                            <p class="name">刘绍典</p><p><b class="b_1">书法名人</b>|<b class="b_2">名人</b></p></a>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="picture/2016083114142011373371.png" alt="" />
+                            <p class="name">刘绍典</p><p><b class="b_1">书法名人</b>|<b class="b_2">名人</b></p></a>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="picture/2016083114142011373371.png" alt="" />
+                            <p class="name">刘绍典</p><p><b class="b_1">书法名人</b>|<b class="b_2">名人</b></p></a>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="picture/2016083114142011373371.png" alt="" />
+                            <p class="name">刘绍典</p><p><b class="b_1">书法名人</b>|<b class="b_2">名人</b></p></a>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="picture/2016083114142011373371.png" alt="" />
+                            <p class="name">刘绍典</p><p><b class="b_1">书法名人</b>|<b class="b_2">名人</b></p></a>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="picture/2016083114142011373371.png" alt="" />
+                            <p class="name">刘绍典</p><p><b class="b_1">书法名人</b>|<b class="b_2">名人</b></p></a>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="picture/2016083114142011373371.png" alt="" />
+                            <p class="name">刘绍典</p><p><b class="b_1">书法名人</b>|<b class="b_2">名人</b></p></a>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="picture/2016083114142011373371.png" alt="" />
+                            <p class="name">刘绍典</p><p><b class="b_1">书法名人</b>|<b class="b_2">名人</b></p></a>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="picture/2016083114142011373371.png" alt="" />
+                            <p class="name">刘绍典</p><p><b class="b_1">书法名人</b>|<b class="b_2">名人</b></p></a>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="picture/2016083114142011373371.png" alt="" />
+                            <p class="name">刘绍典</p><p><b class="b_1">书法名人</b>|<b class="b_2">名人</b></p></a>
+                        </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        <!-- 文化名人 -->
+        <!-- 文化项目 -->
+        <div class="module module_1">
+            <div class="hd clearfix">
+                <span class="tit"><s class="s"></s>文化项目</span><a class="more" href="javascript:void(0);">更多</a>
+            </div>
+            <div class="bd live_list_2017">
+                <ul>
+                    <li class="haspic1">
+                        <a href="javascript:void(0);">
+                            <div class="img"><img src="picture/201601082312014513570_s.png" onerror="this.parentNode.parentNode.parentNode.className='haspic0';" alt="" /></div>
+                            <h3>许昌市文化艺术中心</h3>
+                            <div class="txt clearfix"><span class="fb"><em>总投资</em>100000万元</span><span class="tag">文化项目</span></div>
+                            <span class="touban">重点</span>
+                        </a>
+                    </li>
+                    <li class="haspic1">
+                        <a href="javascript:void(0);">
+                            <div class="img"><img src="picture/201601082312014513570_s.png" onerror="this.parentNode.parentNode.parentNode.className='haspic0';" alt="" /></div>
+                            <h3>许昌市文化艺术中心</h3>
+                            <div class="txt clearfix"><span class="fb"><em>总投资</em>100000万元</span><span class="tag">文化项目</span></div>
+                            <span class="touban">重点</span>
+                        </a>
+                    </li>
+                    <li class="haspic1">
+                        <a href="javascript:void(0);">
+                            <div class="img"><img src="picture/201601082312014513570_s.png" onerror="this.parentNode.parentNode.parentNode.className='haspic0';" alt="" /></div>
+                            <h3>许昌市文化艺术中心</h3>
+                            <div class="txt clearfix"><span class="fb"><em>总投资</em>100000万元</span><span class="tag">文化项目</span></div>
+                            <span class="touban">重点</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 文化项目 -->
+        <!-- 文创作品开始 -->
+        <div class="module module_4">
+            <div class="hd clearfix">
+                <span class="tit"><s class="s"></s>文创作品</span>
+                <a class="more" href="/">更多</a>
+                <div class="timer" id="localtime"></div>
+            </div>
+            <div class="bd pic_2_list">
+                <ul class="clearfix" id="index_tg_list">
+                    <li><a href="/">
+                        <div class="pic"><img src="picture/cp2.jpg" onerror="this.src='http://www.mh163k.com/template/wap/main/default/images/tg_nofindPic.gif'" class="img" alt="" /></div>
+                        <div class="cont">
+                            <h3>1文创作品文创作品文创作品文创作品文创作品文创作品文创作品</h3><p class="shop">文创作品</p>
+                            <p class="price clearfix"><span class="num">已售46件</span>￥<em>368</em><span class="del">￥598</span></p>
+                        </div>
+                    </a></li>
+                    <li><a href="/">
+                        <div class="pic"><img src="picture/cp2.jpg" onerror="this.src='http://www.mh163k.com/template/wap/main/default/images/tg_nofindPic.gif'" class="img" alt="" /></div>
+                        <div class="cont">
+                            <h3>2文创作品文创作品文创作品文创作品文创作品文创作品文创作品</h3><p class="shop">文创作品</p>
+                            <p class="price clearfix"><span class="num">已售46件</span>￥<em>368</em><span class="del">￥598</span></p>
+                        </div>
+                    </a></li>
+                    <li><a href="/">
+                        <div class="pic"><img src="picture/cp2.jpg" onerror="this.src='http://www.mh163k.com/template/wap/main/default/images/tg_nofindPic.gif'" class="img" alt="" /></div>
+                        <div class="cont">
+                            <h3>3文创作品文创作品文创作品文创作品文创作品文创作品文创作品</h3><p class="shop">文创作品</p>
+                            <p class="price clearfix"><span class="num">已售46件</span>￥<em>368</em><span class="del">￥598</span></p>
+                        </div>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 文创作品结束 -->
+        <!-- 广告开始 -->
+        <div class="zdy_html2015"><div class="zd_html"><a href="javascript:void(0);"><img src="img/gg1.jpg" alt="" /></a></div></div>
+        <!-- 广告结束 -->
+      <!-- 推荐活动 -->
+        <div class="module module_2">
+            <div class="hd clearfix">
+                <span class="tit"><s class="s"></s>推荐活动</span><a class="more" href="javascript:void(0);">更多</a>
+            </div>
+            <div class="bd pic_3_list">
+                <ul>
+                    <li><a href="javascript:void(0);">
+						<div class="pic"><sup class="bm2"></sup><img src="picture/2015051009415954813751.jpg" class="img" alt="" /></div>
+						<h3>2016许昌市第一届文化创意设计大赛</h3>
+						<div class="clearfix"><p class="address">活动地址活动地址活动地址</p><p class="time">时间时间时间</p></div><span class="bao">我要报名</span>
+					</a></li>
+                    <li><a href="javascript:void(0);">
+						<div class="pic"><sup class="bm1"></sup><img src="picture/2015051009413742398221.jpg" class="img" alt="" /></div>
+						<h3>2016许昌市第一届文化创意设计大赛</h3>
+						<div class="clearfix"><p class="address">活动地址活动地址活动地址</p><p class="time">时间时间时间</p></div><span class="bao">我要报名</span>
+					</a></li>
+                    <li><a href="javascript:void(0);">
+						<div class="pic"><sup class="bm3"></sup><img src="picture/2015051009584157913061.jpg" class="img" alt="" /></div>
+						<h3>2016许昌市第一届文化创意设计大赛</h3>
+						<div class="clearfix"><p class="address">活动地址活动地址活动地址</p><p class="time">时间时间时间</p></div><span class="bao">我要报名</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 推荐活动 -->
+    </div>
+    <!-- 首页内容结束 -->
+    <!-- 底部开始 -->
+    <div class="foot_link" id="foot_link">
+        <ul class="link">
+            <li><a href="/">首页</a></li>
+            <li><a href="/">电脑版</a></li>
+            <li><a href="/">客户端</a></li>
+            <li><a href="/">反馈留言</a></li>
+            <li class="po_re"><a href="javascript:void(0);" id="shangjiaSelect" data-isShow="0">工作平台</a>
+                <div class="po" id="shangjiaSelectPo">
+                    <p><a href="javascript:void(0);">美好商城</a></p>
+                    <p><a href="javascript:void(0);">许昌佰事通</a></p>
+                    <p><a href="javascript:void(0);">3平台</a></p>
+                    <p><a href="javascript:void(0);">4平台</a></p>
+                </div>
+            </li>
+        </ul>
+		主办单位：许昌市文化广电新闻出版局<br>
+        承办单位：许昌市文化投资有限责任公司<br>
+        Copyright @ 2016-2017 许昌市文化产业网
+    </div>
+    <!-- 底部结束 -->
+</div>
+
+
+
+<div class="windowIframe" id="windowIframe" data-loaded="0">
+    <div class="header"><a href="javascript:;" class="back close">返回</a><span id="windowIframeTitle"></span></div>
+    <div class="body" id="windowIframeBody"></div>
+</div>
+<div id="l-map" style="display:none;"></div>
+<input type="hidden" value="" data-chrname="" data-styleid="" data-chrpic="" data-jifennun="0" data-daijinnum="0" data-isadmin="0" data-isfabukill="0" data-isrepiskill="0" data-isrepsaveiskill="0" id="LoginUserInfo" />
+<script src="js/wap_common.js"></script>
+    
+<script>
+if(isapp === '1'){
+	YDB.SetDragRefresh(0);
+}
+window['siteUrl'] = 'http://wap.xcwh0374.com/';
+document.addEventListener('DOMContentLoaded',function(){
+	$('#nav_ico').click(function(e){
+		e.preventDefault();
+		$('#nav_APP').fadeToggle('fast');
+	});
+	IDC2.footWorker();
+	IDC2.getLoginUserInfo('http://wap.xcwh0374.com/','许昌市文化产业网','10');
+	if(!window['ipageTitle']){
+		$('#ipageTitle').show();
+	}else{
+		$('#ipageTitle').html(window['ipageTitleTxt']).show();
+	}
+},false);
+</script>
+<span class=""></span>
+<div class="mask" id="mask" style="display:none;"></div>
+<div id="weixinX4" data-isloaded="0" style="display:none;">
+	<span class="tit clearfix"><span class="close">关闭</span>微信公众号：<span class="number">nihao163k</span></span>
+	<img src="picture/201507100907139465099.jpg" id="weixinImg" alt="">微信中长按识别
+</div>
+<div class="weixin_ico_fixed" id="weixin_ico_fixed"></div>
+
+<script src="js/iscroll.js"></script>
+<script src="js/json2.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/index_m2017.js"></script>
+<script src="js/jweixin-1.0.0.js"></script>
+<script src="js/nativeshare.js"></script>
+
+
+
+<script>
+var nowdomain ="http://wap.xcwh0374.com/";
+window['siteUrl'] = 'http://wap.xcwh0374.com/';
+window['Default_tplPath'] = 'http://wap.xcwh0374.com/';
+var shareImg = '';
+var filepath1 = 'http://wap.xcwh0374.com/';
+if(typeof filepath1 !== 'undefined'){shareImg = nowdomain + filepath1.replace('../','');}
+var shareLink = 'http://wap.xcwh0374.com/';
+var shareTitle = 'http://wap.xcwh0374.com/';
+var shareContent = 'http://wap.xcwh0374.com/';
+var shareconfig = {
+	url:shareLink,
+	title:shareTitle,
+	desc:shareContent,
+	img:shareImg,
+	img_title:shareTitle,
+	from:'http://wap.xcwh0374.com/'
+};
+document.addEventListener('DOMContentLoaded',function(){
+	new nativeShare('nativeShare',shareconfig);
+	if(!!is_weixn()){set_i_weixinapp_share(shareTitle,shareContent,shareImg,shareLink);}
+	loaded();
+	$('#txtScrollNode').loopScrollTxt();
+	$('.header .back').hide();
+	$('#nav_ico').hide();
+	$('#search_ico').show();
+	var list = $('#content').find('.cell');
+	if(list.length > 0){
+		$('#slide').show();
+		var txt = '';
+		$('#content').find('.cell').each(function(i){
+			if(i === 0){
+				txt += '<li class="active">1</li>';
+			}else{
+				txt += '<li>'+(i+1)+'</li>';
+			}
+		});
+		$('#indicator').html(txt);
+		var w_w = $(window).width();
+		setTimeout(function(){new C_Scroll({container:'slide',content:'content',ct:'indicator',size:w_w,intervalTime:5000,lazyIMG:!!0});},20);
+	}
+	IDC2.closeGG('top_gg');
+	IDC2.tabADS($('#tab_01'));
+	$('#good_list').css({'width':Math.ceil(120*$('#good_list').find('li').length)+'px'});
+	$('#companyList').css({'width':Math.ceil(100*$('#companyList').find('li').length)+'px'});
+	var myClock = iClock.createClock();
+	myClock.makeClock(); 
+	/*var companyList = $('#companyList').find('img');
+	var oneWidth = parseInt(companyList.eq(0).width()*2/3);
+	companyList.css({'height':oneWidth+'px'});*/
+},false);
+function showWeixin(){
+	var w_h = $(window).height();
+	var weixinX4 = $('#weixinX4');
+	if(!weixinX4.attr('data-isloaded') !== '1'){
+		weixinX4.css({'top':(w_h-weixinX4.height()-20)/2+'px'});
+		weixinX4.attr('data-isloaded','1');
+		$('#mask').click(function(e){
+			hideWeixin();
+		});
+		weixinX4.find('.close').click(function(e){
+			hideWeixin();
+		});
+	}
+	weixinX4.fadeIn();
+	$('#mask').fadeIn();
+	$('#p_main').addClass('filter_blur');
+	return false;
+}
+//showWeixin();
+$('#weixin_ico_fixed').tap(function(){
+	showWeixin();
+});
+function hideWeixin(){
+	$('#weixinX4').fadeOut();
+	$('#mask').fadeOut();
+	$('#p_main').removeClass('filter_blur');
+}
+</script>
+</body>
+</html>
