@@ -1,0 +1,12 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*返回顶部*/
+
+.goTopBtn {width:50px;left: 50%; margin:0 0 0 540px;position: fixed; _position:absolute;bottom: 100px;z-index:100;}
+.toplink { height: 50px; width: 50px;background:url(../images/top.png) 0 0 no-repeat;_background:url(../images/top.png) no-repeat 0 0;  filter:Alpha(Opacity=35) !important; opacity:0.35; overflow:hidden; display:block; text-indent:-999em; cursor:pointer;}
+.toplink:hover {filter:Alpha(Opacity=50) !important; opacity:0.5;}
+
+/*二维码*/
+.qr_download {width:110px;left: 50%; margin:0 0 0 515px;position: fixed; _position:absolute;top: 199px;z-index:100;}
+.qr_download_link { height: 150px; width: 110px;background:url(../images/qr_appdownload.png) 0 0 no-repeat;_background:url(../images/qr_appdownload.png) no-repeat 0 0;  overflow:hidden; display:block; text-indent:-999em; cursor:pointer;}	
