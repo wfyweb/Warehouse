@@ -1,0 +1,400 @@
+﻿<!DOCTYPE html>
+<html>
+ <head autoconcat="1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="Cache-Control" content="no-transform " />
+  <title>许昌大数据服务平台</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="sogou_site_verification" content="FZAELF2JN9" />
+  <meta name="360-site-verification" content="2d807cc45e42665e812d541bfb06ef01" />
+  <link rel="canonical" href="http://ipr.zbj.com/" />
+  <meta name="baidu-site-verification" content="IppzFTTD31" />
+  <meta property="og:image" content="http://a.zbjimg.com/static/ipr-www/index/img/logo-index_ff20f18.png" />
+  <link rel="shortcut icon" href="http://a.zbjimg.com/static/ipr-www/common/default/favicon.ico" type="image/x-icon" />
+  <script>
+    (function(w,d,m){
+        w[m]=w[m]||function(){(w[m].q=w[m].q||[]).push(arguments)}, w[m].r = +new Date;
+    })(window,document,"MonitorHD");
+  </script>
+  <script>MonitorHD.sh = +new Date;</script>
+  <script>
+    (function(global){
+
+        var dbg = getCookie('ga_enabled');
+
+        var reportUrl = 'http://web.app.zbjwork.com/dot.gif?info=';
+        global.gMonitor = {
+            checkCdn: function(){
+                if(checkOk()){
+                    return;
+                }
+                var err = {
+                    'log-type': 'cdn-error'
+                };
+                this.report(err);
+            },
+            imgError: function(imgUrl){
+                var err = {
+                    'log-type': 'img-error',
+                    'img-url': imgUrl
+                };
+                this.report(err);
+            },
+            report: function(data){
+                if(!window.ZBJInfo
+                    || (window.ZBJInfo.runtime != 'product' && !dbg)
+                    || document.location.protocol == 'https:'){
+                    return;
+                }
+
+                var info = this.serialize(data);
+                var img = new Image();
+                img.src = reportUrl + encodeURIComponent(info);
+            },
+            serialize: function(data){
+                data['uid'] = getCookie('userid');
+
+                var rs = ['{'];
+                var idx = 0;
+                for(var i in data){
+                    if(idx > 0){
+                        rs.push(',');
+                    }
+                    rs.push('"'+ i +'": "' + data[i] + '"');
+                    idx++;
+                }
+                rs.push('}');
+                return rs.join('');
+            }
+        };
+
+        function checkOk(){
+            var isJsOK = typeof window.seajs !== 'undefined';
+
+            var margin;
+            if(window.getComputedStyle){
+                margin = window.getComputedStyle(document.body, null).margin;
+            }else if(document.body.currentStyle){
+                margin = document.body.currentStyle.margin;
+            }
+
+            var isCssOk = parseInt(margin) == 0;
+            return isCssOk && isJsOK;
+        }
+
+        function getCookie(name){
+            var value = document.cookie;
+            var start = value.indexOf(" " + name + "=");
+            if(start == -1){
+                start = value.indexOf(name + "=");
+                if(start > 0){
+                    return null;
+                }
+            }
+            if(start == -1){
+                return null;
+            }
+
+            start = value.indexOf("=", start) + 1;
+            var end = value.indexOf(";", start);
+            if(end == -1){
+                end = value.length;
+            }
+            return decodeURIComponent(value.substring(start, end));
+        }
+    })(window);
+</script>
+  <link rel="stylesheet" type="text/css" href="css/7e4439fc6d724140b0d41c34e8470038.css" />
+  <link rel="stylesheet" type="text/css" href="css/19af5295ad5c47109fa04bed0c0a7116.css" />
+  <link rel="stylesheet" type="text/css" href="css/3a6b991a993d4c93ac3754e03ac55771.css" />
+  <link rel="stylesheet" type="text/css" href="css/53d4b411a22c4d7c93d6096b76c0bb64.css" />
+ </head>
+ <body class="">
+  <div class="main">
+   <div class="banner-box">
+    <div class="banner">
+     <div class="header clearfix">
+      <div class="header-left">
+       <ul class="clearfix">
+        <li><a href="javascript:;" data-link="67" target="_blank">商标查询</a></li>
+        <li><a href="javascript:;" data-link="68" target="_blank">版权登记</a></li>
+        <li><a href="javascript:;" data-link="69" target="_blank">专利申请</a></li>
+        <li><a href="javascript:;" data-link="70" target="_blank">免费找标</a></li>
+        <li><a href="javascript:;" data-link="" target="_blank">商标分类表</a></li>
+        <li>|</li>
+        <li><a href="javascript:;" data-link="71" target="_blank">知讯</a></li>
+        <li><a href="javascript:;" data-link="72" target="_blank">资讯区</a></li>
+        <li class="tools"> <a><i class="tool-icon"></i>常用工具</a>
+         <div class="tools-list">
+          <div class="tools-item">
+           <a href="javascript:;" data-link="74" target="_blank"> <img src="picture/b2f7746cb464446e9a687b83d40a078f.gif" /> <p>商标进度查询</p> </a>
+          </div>
+          <div class="tools-item">
+           <a href="javascript:;" data-link="75" target="_blank"> <img src="picture/098af16d6b834c96b410e81a5f5ccb02.gif" /> <p>专利查询</p> </a>
+          </div>
+          <div class="tools-item">
+           <a href="javascript:;" data-link="76" target="_blank"> <img src="picture/0d48b55349eb4722aa9203d509a8df53.gif" /> <p>流量充值</p> </a>
+          </div>
+         </div> </li>
+       </ul>
+      </div>
+      <div class="header-right">
+       <ul>
+        <li><a href="javascript:;" data-link="77" >帮助中心</a></li>
+        <li><a href="javascript:;" data-link="78" >联系客服</a></li>
+       </ul>
+       <ul id="user" class="clearfix">
+        <li class="visitor"><a href="javascript:;">登录</a>／<a href="javascript:;">注册</a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="banner-wrap">
+      <div class="logo">
+       <img src="picture/logo_4f19792.png" alt="八戒知识产权" />
+       <h1>八戒知识产权</h1>
+      </div>
+      <input type="hidden" class="new-index-2017" />
+      <p class="logo-text"><i></i><span>许昌大数据服务平台</span><i></i></p>
+      <div class="search clearfix">
+       <div class="search-box">
+        <div class="search-type">
+         <div class="type-btn">
+          <div class="current-type">
+            商标
+          </div>
+          <i class="arrow"></i>
+         </div>
+         <ul class="type-list">
+          <li data-link="233">商标</li>
+          <li data-link="234">版权</li>
+          <li data-link="239">专利</li>
+         </ul>
+        </div>
+        <div class="type-input">
+         <input type="text" placeholder="请输入商标名称。" class="text-msg J-chance-text" autocomplete="off" />
+        </div>
+        <a class="search-btn J-chance-btn" id="advanced-search" data-link="235"> 免费查询能否注册</a>
+       </div>
+      </div>
+      <div class="banner-info">
+       <!-- <div class="info-2">
+         累计成交:&nbsp;
+        <span>575896</span>&nbsp;件&nbsp;&nbsp;上月成交:&nbsp;
+        <span>31062</span>&nbsp;件&nbsp;&nbsp;昨日成交:&nbsp;
+        <span>1480</span>&nbsp;件
+       </div> -->
+      </div>
+     </div>
+     <div class="banner-bottom">
+      <div class="banner-list clearfix">
+       <div class="business">
+        <h3 class="title"> 商标 <a href="#" target="_blank" data-link="229"> <img class="title-icon" src="picture/4c3cba0b85b5438aa2e9fb5d9c26a044.gif" /> </a> </h3>
+        <!-- <ul class="clearfix">
+         <li><a href="http://ipr.zbj.com/trademark/dbzc/" class="hot-service" target="_blank" data-link="79">商标担保注册</a></li>
+         <li><a href="http://ipr.zbj.com/trademark/sjzc/" target="_blank" data-link="80">商标设计套餐</a></li>
+         <li><a href="http://ipr.zbj.com/trademark/ptzc/" target="_blank" data-link="81">商标普通注册</a></li>
+         <li><a href="http://zt.ipr.zbj.com/trademark/bhfs/" target="_blank" data-link="82">商标驳回复审</a></li>
+         <li><a href="http://zt.ipr.zbj.com/mark/sbcx" target="_blank" data-link="83">商标免费查询</a></li>
+         <li><a href="http://intipr.zbj.com/trademark/international?utm_source=IPRHOME&amp;utm_medium=P_MAINNAV&amp;utm_campaign=IPR2YBJ" target="_blank" data-link="84">国际商标注册</a></li>
+        </ul> -->
+       </div>
+       <div class="business">
+        <h3 class="title"> 版权 <a href="#" target="_blank" data-link="230"> <img class="title-icon" src="picture/075b75683529479b8ca3b16a4c8650b2.gif" /> </a> </h3>
+        <!-- <ul class="clearfix">
+         <li><a href="http://ipr.zbj.com/copyright/mszp/" class="hot-service" target="_blank" data-link="85">logo作品</a></li>
+         <li><a href="http://ipr.zbj.com/copyright/mszp/" target="_blank" data-link="86">美术作品</a></li>
+         <li><a href="http://ipr.zbj.com/copyright/wzzp/" target="_blank" data-link="87">文字作品</a></li>
+         <li><a href="http://ipr.zbj.com/copyright/rjzz/" target="_blank" data-link="88">软件著作权</a></li>
+         <li><a href="http://ipr.zbj.com/copyright/gcsj/" target="_blank" data-link="89">设计稿作品</a></li>
+         <li><a href="http://ipr.zbj.com/copyright/yszp/" target="_blank" data-link="90">视频作品</a></li>
+        </ul> -->
+       </div>
+       <div class="business">
+        <h3 class="title"> 专利 <a href="#" target="_blank" data-link="231"> <img class="title-icon" src="picture/565f0ad7331b433e8b3aa90863c58367.gif" /> </a> </h3>
+        <!-- <ul class="clearfix">
+         <li><a href="http://ipr.zbj.com/patent/fmzl/" class="hot-service" target="_blank" data-link="91">发明专利</a></li>
+         <li><a href="http://ipr.zbj.com/patent/syzl/" target="_blank" data-link="92">实用新型专利</a></li>
+         <li><a href="http://ipr.zbj.com/patent/wgzl/" target="_blank" data-link="93">外观设计专利</a></li>
+         <li><a href="http://zt.ipr.zbj.com/patent/zlcx/" target="_blank" data-link="94">专利免费查询</a></li>
+         <li><a href="http://ipr.zbj.com/patent/" target="_blank" data-link="95">国际专利</a></li>
+         <li><a href="http://zt.ipr.zbj.com/dsqq/" target="_blank" data-link="96">电商侵权申诉</a></li>
+        </ul> -->
+       </div>
+       <div class="business">
+        <h3 class="title"> 交易 <a href="#" target="_blank" data-link="232"> <img class="title-icon" src="picture/598c5665c41540a0a597ccc6a4fc587d.gif" /> </a> </h3>
+        <!-- <ul class="clearfix">
+         <li><a href="http://zt.ipr.zbj.com/buy/kstj" target="_blank" data-link="97">急用商标</a></li>
+         <li><a href="http://market.ipr.zbj.com/special/" class="hot-service" target="_blank" data-link="98">特价商标</a></li>
+         <li><a href="http://market.ipr.zbj.com/jp/20" target="_blank" data-link="99">电商商标</a></li>
+         <li><a href="http://zt.ipr.zbj.com/buy/kstj" target="_blank" data-link="100">免费找标</a></li>
+         <li><a href="http://market.ipr.zbj.com/trademark" target="_blank" data-link="101">服装商标</a></li>
+         <li><a href="http://market.ipr.zbj.com/trademark" target="_blank" data-link="102">我要淘标</a></li>
+        </ul> -->
+       </div>
+      </div>
+      <div class="banner-message">
+       <img class="message-icon" src="picture/banner-icon-gonggao_91f503b.png" />
+       <div class="swiper-container">
+        <div class="swiper-wrapper">
+         <div class="message-box  swiper-slide">
+          <h4 class="message"> <a href="javascript:;" data-link="103" target="_blank"><span>【推荐】</span>商标被驳回怎么办？</a> </h4>
+          <h4 class="message"> <a href="javascript:;" data-link="104" target="_blank"><span>【活动】</span>填问卷，抽100元商标注册优惠码！</a> </h4>
+          <h4 class="message"> <a href="javascript:;" data-link="105" target="_blank"><span>【教程】</span>怎么在海外亚马逊开店？一分钟教会你！</a> </h4>
+         </div>
+         <div class="message-box  swiper-slide">
+          <h4 class="message"> <a href="javascript:;" data-link="106" target="_blank"><span>【活动】</span>有想法，没保护怎么办？</a> </h4>
+          <h4 class="message"> <a href="javascript:;" data-link="107" target="_blank"><span>【推荐】</span>如何快速拥有自己喜欢的商标？</a> </h4>
+          <h4 class="message"> <a href="javascript:;" data-link="" target="_blank"><span>【推荐】</span>电商侵权怎么办？</a> </h4>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+
+   <!-- <div class="brand-consult-wrap">
+    <div class="brand-consult">
+     <a class="comfirm" id="pig-head" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'contact', 'pig-head']);" href="http://p.qiao.baidu.com/cps/chat?siteId=9155188&amp;userId=21107790"> <i class="pig-head"></i> <i class="pig-body"></i> </a>
+    </div>
+    <div class="zbj-bottom-btn">
+     <a class="feedback-icon home-icon zbj-feedback j-expand" href="javascript:;"></a>
+     <a class="feedback-icon home-icon zbj-test j-expand" href="http://ipr.zbj.com/ask"></a>
+     <a class="J-zbj-top feedback-icon home-icon zbj-top" href="javascript:;"></a>
+    </div>
+   </div>
+   <div class="feedback-modal">
+    <div class="feedback-modal-content">
+     <h2 class="feedback-title">用户反馈<a id="md-feedback-close" class="feedback-close">&times;</a></h2>
+     <form class="feedback-form">
+      <input type="hidden" name="userType" value="1" />
+      <input type="hidden" name="opinionSource" value="1" />
+      <div class="feedback-radio-box">
+       <h2>选择反馈类型</h2>
+       <label class="first-radio feedback-icon checked">建议&amp;意见<input name="opinionType" type="radio" value="1" checked="checked" /> </label>
+       <label class="feedback-icon">投诉<input name="opinionType" type="radio" value="2" /> </label>
+       <label class="feedback-icon">其他<input name="opinionType" type="radio" value="3" /> </label>
+      </div>
+      <div>
+       <h2 class="feedback-require">你遇到的问题或建议反馈给我们，我们会更好的为你服务。</h2>
+       <textarea class="reset-input feedback-textarea" name="content" cols="30" rows="10"></textarea>
+       <div class="feedback-help-warning">
+        反馈内容不能为空哦～
+       </div>
+      </div>
+      <div>
+       <h2>请留下你的手机号码，说不准会有惊喜哦～</h2>
+       <div class="zbj-placeholder-wrap">
+        <input class="reset-input top-bar-phone" name="phone" type="text" placeholder="仅八戒知识产权官方可见" />
+       </div>
+       <div class="feedback-help-warning">
+        手机号码格式不正确哦～
+       </div>
+      </div>
+      <a id="md-feedback-submit" class="feedback-submit" href="javascript:;">提交</a>
+     </form>
+     <div class="feedback-loading">
+     </div>
+     <div class="feedback-result">
+      <div class="feedback-result-head">
+       <div class="feedback-result-title">
+        <p class="feedback-text-success"><i class="feedback-icon success"></i><span>谢谢您提交的宝贵意见，我们会努力改进的！</span></p>
+        <p class="feedback-text-fail hide"><i class="feedback-icon fail"></i><span>提交太过频繁, 请稍后再试~</span></p>
+       </div>
+      </div>
+      <div class="feedback-result-common">
+       <div class="feedback-result-top">
+        <p><img src="picture/dracode_7ade1be.jpg" /></p>
+        <p class="wechat">— 关注微信 —</p>
+        <p class="wechat">手机查询更便捷</p>
+       </div>
+       <div class="feedback-result-foot">
+        <span class="feedback-inline-block panel-icon panel-icon-round"></span>
+        <div class="feedback-inline-block">
+         <a class="foot-text" href="http://shangbiao.witmart.com/international?utm_source=TMSEARCH&amp;utm_medium=SUCCESSPOPUP&amp;utm_campaign=ZHUBIAOJU">注册国际商标<br />点击免费查询</a>
+        </div>
+        <div class="feedback-inline-block feedback-line"></div>
+        <span class="feedback-inline-block panel-icon panel-icon-search"></span>
+        <div class="feedback-inline-block">
+         <a class="foot-text" href="http://market.ipr.zbj.com">现成好商标<br />瞄一眼</a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div> -->
+   <script>
+  if (location.host.match('market')){
+    var isQQ = true;
+  }
+</script>
+
+   <script>
+    window.ZBJInfo = {
+        pageDomain: "zbj.com",
+        baseURI: "zbj.com",
+        newStaticLibURI: "http://a.zbjimg.com",
+        asStaticLibURI: "//",
+        rakeProject: true,
+        upFileUrl : "http://p7.zbjimg.com/",
+        t6Url: "http://t6.zbjimg.com",
+        t5Url: "http://t5.zbjimg.com",
+        webIMToken: "",
+        isTianpengSite: 0,
+        isIPRSite: 1,
+        qiniuUploadTokenUrl: "http://rms.zhubajie.com",
+        runtime: "product",
+        tpWWWUrl: "http://www.tianpeng.com",
+        zhubiaojuURI: ""
+
+
+            };
+    window.monitorConfig = {
+        product: 'zhubajie'
+    };
+</script>
+   <script>
+    //判断是否支持WebP
+    (function(window){
+        if(!window.ZBJInfo.sWebP){
+            var img = new Image();
+            img.onload = img.onerror = function () {
+                window.ZBJInfo.sWebP = (img.width > 0) && (img.height > 0);
+            };
+            img.src = 'data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==';
+        }
+    }(window));
+</script>
+   <script>
+    </script>
+   <script id="seajsnode" type="text/javascript" src="js/f6286b00f0094c4bb36c451ca8a6259c.js"></script>
+   <script src="js/seajs-config_0eb4b6b.js"></script>
+   <script src="js/seajs-config_8479695.js"></script>
+   <script>
+    window.monitorConfig = {
+        product: 'ipr'
+    };
+    window.IPRInfor = {
+        zc_ipr_url: "",
+        market_ipr_url: "http:\/\/market.ipr.zbj.com",
+        ipr_88_url: "http:\/\/88.ipr.zbj.com",
+        www_ipr_url: "http:\/\/ipr.zbj.com",
+        m_ipr_url: "http:\/\/m.ipr.zbj.com",
+        news_ipr_url: "http:\/\/news.ipr.zbj.com",
+        login_url: "https:\/\/login.zbj.com",
+        cookieDomain: ".ipr.zbj.com",
+        zt_ipr_url: "http:\/\/zt.ipr.zbj.com",
+        boss_track_url : "http:\/\/track-boss.ipr.zbj.com",
+        lazy_placeholder:"http://a.zbjimg.com/static/ipr-www/common/default/img/pixel_974b6f5.png",
+        domain : "zbj.com"
+    }
+    // 隐藏之前的那个右侧工具栏
+    $('.brand-consult-wrap').hide();
+
+</script>
+
+  </div>
+ </body>
+</html>
